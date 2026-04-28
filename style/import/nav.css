@@ -1,0 +1,90 @@
+nav{
+    width: 90px;
+    height: 100vw;
+    background-color: #0a0a0f;
+    padding-top: 50px;
+    position: fixed;
+
+    border-right: 1px solid #e3e3e31f;
+    
+    
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+    background: linear-gradient( to bottom right, #8239eb 5% , #bb28d5 );
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #bb28d5 ;
+    margin: auto;
+    
+}
+.logo p{
+    font-family: "geist" 'Paytone One', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+.navegacao{
+    width: 100%;
+    height: 250px;
+    
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#nav{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    /* Define a cor do preenchimento */
+    fill: #e3e3e3; 
+    
+    /* CONTROLANDO A TRANSPARÊNCIA: 
+       Aqui é onde a mágica acontece. 0.3 deixa ele bem clarinho. */
+    fill-opacity: 0.5; 
+    
+    /* Se você quiser que ele pareça um pouco mais "grosso", 
+       pode adicionar um stroke da MESMA COR do fill */
+    stroke: #e3e3e3;
+    stroke-width: 5px; /* Um valor pequeno aqui já ajuda a dar peso */
+    stroke-opacity: 0.4; /* Mantém a mesma transparência da linha */
+    
+    text-align: center;
+}
+.social{
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#social{
+    width: 15px;
+    height: 20px;
+    margin: auto;
+    border-radius: 5px;
+    /* Define a cor do preenchimento */
+    fill: #e3e3e3; 
+    
+    /* CONTROLANDO A TRANSPARÊNCIA: 
+       Aqui é onde a mágica acontece. 0.3 deixa ele bem clarinho. */
+    fill-opacity: 0.5; 
+    stroke-opacity: 0.4; /* Mantém a mesma transparência da linha */
+    text-align: center;
+    cursor: pointer;
+}
+.linkedin p{
+    color: rgba(255, 255, 255, 0.562);
+    font-family:  sans-serif;
+    font-size: 18px;
+}
+
+
+
+
