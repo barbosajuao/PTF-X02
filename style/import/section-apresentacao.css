@@ -1,0 +1,51 @@
+
+.containerperfil{
+    width: 100%;
+    height: 100vh;
+    margin-top: -700px;
+    
+    
+}
+
+
+
+
+
+.flex-profile{
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 50px;
+
+}
+
+.flex-profile{
+    display: flex;
+}
+.textapresentacao{
+    width: 65%;
+    height: 100%;
+    padding-left: 200px;
+}
+.statusapresentacao{
+    width: 250px;
+    height: 35px;
+    background-color: #171226;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bola{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(2, 255, 112);
+    border-radius: 50%;
+    
+}
+.statusapresentacao p{
+    color:#ad9dc0 ;
+    font-weight: bold;
+}
