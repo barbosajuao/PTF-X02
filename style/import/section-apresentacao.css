@@ -1,8 +1,9 @@
 
+/*manipula a autura do perfil relacionado ao fundo quadrado  */
 .containerperfil{
     width: 100%;
     height: 100vh;
-    margin-top: -700px;
+    margin-top: -850px;
     
     
 }
@@ -15,7 +16,7 @@
     width: 100%;
     height: 100%;
     color: white;
-    padding: 50px;
+    
 
 }
 
@@ -25,7 +26,7 @@
 .textapresentacao{
     width: 65%;
     height: 100%;
-    padding-left: 200px;
+    padding-left: 250px;
 }
 .statusapresentacao{
     width: 250px;
@@ -36,6 +37,7 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
     
 }
 .bola{
@@ -44,8 +46,219 @@
     background-color: rgb(2, 255, 112);
     border-radius: 50%;
     
+    
 }
 .statusapresentacao p{
     color:#ad9dc0 ;
     font-weight: bold;
 }
+.textapresentacao h2{
+    font-size: 100px;
+    
+    margin-top: 50px;
+    font-weight: bolder;
+    font-family: "geist";
+}
+.textapresentacao h3{
+    font-size: 100px;
+    margin-top: -20px;
+    font-weight: bolder;
+    font-family: "geist";
+    
+    /* 1. Definimos o gradiente (pode usar o to bottom right que aprendemos) */
+    background: linear-gradient( to right, #7138a7 10% , #b45bad 20% );
+
+    /* 2. O segredo: fazemos o fundo "cortar" no formato das letras */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Deixamos a cor do texto transparente para o fundo aparecer através dele */
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+  
+}
+#animacaotxt{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(180, 180, 180);
+}
+#descricaoapresentao{
+    width: 900px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(180, 180, 180, 0.678);
+}
+.flex-butoon{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.buttonapresentacao1{
+    width: 50%;
+    height: 70px;
+    background: linear-gradient( to  right, #8239eb 5% , #bb28d5 );
+    border-radius: 30px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #bb28d5 ;
+}
+.buttonapresentacao2{
+    width: 50%;
+    height: 70px;
+    border: 1px solid #a09e9e91;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.733);
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.flexnumeros{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    color: rgba(187, 186, 186, 0.795);
+    font-size: 20px;
+    text-align: center;
+}
+.flexnumeros h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.separador{
+    width: 1px;
+    height: 50px;
+    background-color: #a09e9e91;
+}
+
+/* .scroll{
+    width: 100%;
+    height: 30px;
+    
+    background-color: tomato;
+} */
+
+.cardapresentacao{
+    width: 30%;
+}
+.containercard{
+    width: 80%;
+    height: 700px;
+    background-color:#111118;
+    margin-top: 80px;
+    border-radius: 30px;
+    padding: 30px;
+    border: 2px solid #fffefe91;
+    box-shadow: 0px 0px 100px #c662d833;
+}
+.imgprofile{
+    width: 100%;
+    height: 60%;
+    background-color: #7138a750;
+    border-radius: 30px;
+    margin: 0  auto;
+    margin-bottom: 10px;
+}
+.flexnomecard{
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.opentowork{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    background-color: #10A976;
+    align-items: center;
+    gap: 10px;
+    margin-top: -50px;
+    padding-left: 20px;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+.descricaocard{
+    width: 50%;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+.descricaocard h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.descricaocard p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.493);
+    margin-bottom: 30px;
+}
+.flextec{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+}
+#tec{
+    width: 120px;
+    height: 40px;
+    background-color: #1d1d24;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid #fffefe91;
+}
+.flexbutoncard{
+    width: 100%;
+    height: 70px;
+    
+    margin-top: -40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.buttoncard1{
+    width: 50%;
+    height: 80%;
+    background-color: #1d1d24;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid #fffefe91;
+    cursor: pointer;
+}
+.buttoncard2{
+    width: 50%;
+    height: 80%;
+    background-color: #1d1d24;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid #fffefe91;
+    cursor: pointer;
+}
+
+
