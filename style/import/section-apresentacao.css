@@ -2,7 +2,7 @@
 /*manipula a autura do perfil relacionado ao fundo quadrado  */
 .containerperfil{
     width: 100%;
-    height: 100vh;
+    height: 850px;
     margin-top: -850px;
     
     
@@ -14,7 +14,7 @@
 
 .flex-profile{
     width: 100%;
-    height: 100%;
+    height: 300px;
     color: white;
     
 
@@ -25,7 +25,7 @@
 }
 .textapresentacao{
     width: 65%;
-    height: 100%;
+    height: 500px;
     padding-left: 250px;
 }
 .statusapresentacao{
@@ -143,15 +143,24 @@
 .separador{
     width: 1px;
     height: 50px;
-    background-color: #a09e9e91;
+    background-color: #a09e9e63;
 }
 
-/* .scroll{
+.scroll{
     width: 100%;
-    height: 30px;
+    height: 50px;
+    padding-left: 75%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.144);
+    margin-top: -30px;
     
-    background-color: tomato;
-} */
+} 
+.seta{
+    width: 2px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.212);
+    margin-left: 30px;
+}
 
 .cardapresentacao{
     width: 30%;
@@ -221,6 +230,7 @@
     display: flex;
     gap: 10px;
     margin-top: 80px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
 }
 #tec{
     width: 120px;
@@ -239,6 +249,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
+
 }
 .buttoncard1{
     width: 50%;
@@ -248,6 +259,13 @@
     text-align: center;
     line-height: 40px;
     border: 2px solid #fffefe91;
+    cursor: pointer;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-size: 20px;
     cursor: pointer;
 }
 .buttoncard2{
@@ -259,6 +277,34 @@
     line-height: 40px;
     border: 2px solid #fffefe91;
     cursor: pointer;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.iconbuttoncard1{
+    width: 30px;
+    height: 30px;
+}
+.iconbuttoncard1 svg{
+    fill: #e3e3e39d; 
+}
+.buttoncard2{
+    line-height: 30px;
+}
+.iconbuttoncard2{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 30px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+    
+
 }
 
 
