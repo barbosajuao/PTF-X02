@@ -1,12 +1,15 @@
 .sobre-mim{
     width: 100%;
-    height: 1090px;
+    height: 1400px;
     color: #fff;
+    
+
 }
-.padding{
+.padding01{
     width: 100%;
     height: 1500px;
     padding-left: 250px;
+   
 }
 .titulo-section-sobre{
     width: 100%;
@@ -17,7 +20,7 @@
     font-size: 40px;
     align-items: center;
     gap: 20px;
-    color: rgb(179, 111, 243);
+    color: rgb(158, 85, 226);
     font-weight: bold;
 }
 .espacador-sobre-mim{
@@ -34,7 +37,7 @@
 }
 #txtsobrecinza{
     color: #4b5563;
-    margin-top: -15px;
+    
 }
 .flex-sobre-mim{
     width: 100%;
@@ -123,8 +126,152 @@
 #boxsobre{
     width: 40%;
     height: 400px;
-    background-color: #5c606456;
+    
     border-radius: 30px;
     padding: 30px;
 
+}
+.box01{
+    background-color: #151124;
+    border: 1px solid #614ea5;
+}
+.icon-trajetoria1{
+    width: 100%;
+    height: 60px;
+    
+}
+.icon-trajetoria1 svg{
+    width: 20%;
+    height: 100%;
+    fill: #8d74e7; 
+    margin-left: -10px;
+
+}
+.box01 h1{
+    width: 100%;
+    height: 50px;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.box01 p{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #7b8085e3;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    
+}
+
+.box02{
+    background-color: #1c0f22;
+    border: 1px solid #763f8f;
+}
+.icon-trajetoria2{
+    width: 100%;
+    height: 60px;
+    
+}
+.icon-trajetoria2 svg{
+    width: 20%;
+    height: 100%;
+    fill: #b261d8; 
+    margin-left: -10px;
+
+}
+.box02 h1{
+    width: 100%;
+    height: 50px;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.box02 p{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #7b8085e3;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    
+}
+
+
+
+
+.box03{
+    background-color: #1d0f1b;
+    border: 1px solid #b35ea6;
+}
+.icon-trajetoria3{
+    width: 100%;
+    height: 60px;
+    
+}
+.icon-trajetoria3 svg{
+    width: 20%;
+    height: 100%;
+    fill: #df74cf; 
+    margin-left: -10px;
+
+}
+.box03 h1{
+    width: 100%;
+    height: 50px;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.box03 p{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #7b8085e3;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    
+}
+
+
+
+.box04{
+    background-color: #210f17;
+    border: 1px solid #a54c74;
+}
+.icon-trajetoria4{
+    width: 100%;
+    height: 60px;
+    
+}
+.icon-trajetoria4 svg{
+    width: 20%;
+    height: 100%;
+    fill: #ce5f91; 
+    margin-left: -10px;
+
+}
+.box04 h1{
+    width: 100%;
+    height: 50px;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.box04 p{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #7b8085e3;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    
 }
