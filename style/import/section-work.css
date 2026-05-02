@@ -1,6 +1,8 @@
+
+/* tamanho da pagina para os cards */
 .padding02{
     width: 100%;
-    height: 1500px;
+    height: 2500px;
     padding-left: 250px;
     
     margin-top: 100px;
@@ -79,12 +81,12 @@
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 40px;
-    margin-bottom: 1500px;
+    margin-bottom: 150px;
 }
 .atalho{
     width: 150px;
     height: 40px;
-    border: 3px solid rgb(100, 100, 100);
+    border: 2px solid rgb(189, 187, 187);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,4 +105,190 @@
 #maior{
     width: 180px;
 }
+.flexcardworkdestaque{
+    width: 80%;
+    height: 700px;
+    display: flex;
+    
+    gap: 20px;
+}
+/* inicio cardes em destaque */
+.carddestaque01 , .carddestaque02{
+    width: 50%;
+    height: 100%;
+    background-color: #111118;
+    border-radius: 30px;
+    border: 3px solid #838285;
+    
+}
+.imgfundo , .imgfundo02{
+    width: 100%;
+    height: 50%;
+    background-color: #856be23f;
+    border-radius: 0px 20px 0px 0px 20px;
+    padding-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.ano , .ano02{
+    width: 70px;
+    height: 40px;
+    background-color: rgba(49, 49, 49, 0.692);
+    margin-left: 85%;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(199, 199, 199, 0.849);
+    font-size: 20px;
+   
+    
+
+}
+.txtcarddestaque ,.txtcarddestaque02 {
+    width: 100%;
+    height: 200px;
+    font-size:20px;
+    
+    color: rgb(117, 117, 117);
+    font-weight: 900;
+    padding: 30px;
+    
+    
+}
+.txtcarddestaque h1 ,.txtcarddestaque02 h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.flextecscard{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+.linksdemocard01 , .linksdemocard02{
+    width: 60%;
+    height: 50px;
+    color: rgb(80, 80, 80);
+    padding: 30px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 70px;
+}
+.linkgithub01 ,.linkgithub02{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+   
+    
+}
+.linkgithub01 p , .linkgithub02 p{
+    cursor: pointer;
+}
+.svghithub{
+    width: 30px;
+    height: 30px;
+    fill:rgb(92, 92, 92) ;
+    
+}
+.linkdemo01 , .linkdemo02{
+    width: 80%;
+    display: flex;
+    gap: px;
+    align-items: center;
+    color: #8c72ec;
+}
+.svgseta{
+    width: 30px;
+    height: 30px;
+    
+    margin-top: 5px;
+    
+}
+.svgseta svg{
+    fill:#8c72ec ;
+}
+
+/* inicio cards geral */
+
+.flexcardworkgeral{
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    margin-top: 30px;
+}
+.totalcards{
+    width: 400px;
+    height: 500px;
+    background-color: #111118;
+    border-radius: 30px;
+    border: 3px solid #838285;
+    
+}
+.imgfundo03 , .imgfundo04 , .imgfundo05 , .imgfundo06{
+    width: 100%;
+    height: 40%;
+    background-color: #856be23f;
+    border-radius: 0px 20px 0px 0px 20px;
+    padding-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anototalcard{
+    width: 70px;
+    height: 40px;
+   
+    margin-left: 80%;
+    margin-top: 50%;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(94, 94, 94, 0.849);
+    font-size: 20px;
+}
+.txtcarddestaquegeral {
+    width: 100%;
+    height: 200px;
+    font-size:16px;
+    
+    color: rgb(117, 117, 117);
+    font-weight: 900;
+    padding: 30px;
+}
+.txtcarddestaquegeral h1{
+    color: white;
+    font-size: 20px;
+    
+    margin-bottom: 20px;
+
+}
+.flextecscardgeral{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.linksdemocardgeral{
+    width: 100%;
+    height: 30px;
+    color: rgb(80, 80, 80);
+    padding: 30px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+
+
+
 
