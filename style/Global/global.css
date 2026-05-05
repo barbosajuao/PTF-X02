@@ -1,4 +1,5 @@
 @import url(/style/Global/reset.css);
+@import url(/style/Global/variaveis.css);
 @import url(/style/import/nav.css);
 @import url(/style/import/fundo.css);
 @import url(/style/import/section-apresentacao.css);
@@ -6,3 +7,8 @@
 @import url(/style/import/section-work.css);
 @import url(/style/import/section-stak.css);
 @import url(/style/import/section-contato.css);
+@import url(/style/import/footer.css);
+
+/* midia queries */
+@import url(/style/import/screen/desktop1680x1050.css);
+@import url(/style/import/screen/notebook1440x900.css);

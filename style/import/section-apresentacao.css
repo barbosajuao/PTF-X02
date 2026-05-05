@@ -30,14 +30,14 @@
 }
 .statusapresentacao{
     width: 250px;
-    height: 35px;
-    background-color: #171226;
+    height: 45px;
+    background-color: #362b5875;
     border-radius: 30px;
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     
 }
 .bola{
@@ -63,7 +63,7 @@
     font-size: 100px;
     margin-top: -20px;
     font-weight: bolder;
-    font-family: "geist";
+    font-family: var(--fonte-principal);
     
     /* 1. Definimos o gradiente (pode usar o to bottom right que aprendemos) */
     background: linear-gradient( to right, #7138a7 10% , #b45bad 20% );
@@ -82,14 +82,14 @@
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 30px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: bolder;
     color: rgb(180, 180, 180);
 }
 #descricaoapresentao{
     width: 900px;
     font-size: 25px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     color: rgba(180, 180, 180, 0.678);
 }
 .flex-butoon{
@@ -108,7 +108,7 @@
     line-height: 70px;
     font-size: 25px;
     font-weight: bolder;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     cursor: pointer;
     box-shadow: 0px 0px 10px #bb28d5 ;
 }
@@ -122,7 +122,7 @@
     font-size: 25px;
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.733);
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     cursor: pointer;
 }
 .flexnumeros{
@@ -137,7 +137,7 @@
 }
 .flexnumeros h1{
     font-size: 40px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     color: rgb(255, 255, 255);
 }
 .separador{
@@ -152,7 +152,7 @@
     padding-left: 75%;
     font-size: 30px;
     color: rgba(255, 255, 255, 0.144);
-    margin-top: -30px;
+   
     
 } 
 .seta{
@@ -201,7 +201,7 @@
     margin-top: -50px;
     padding-left: 20px;
     border-radius: 30px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: bolder;
 
 }
@@ -214,13 +214,13 @@
 }
 .descricaocard h1{
     font-size: 40px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: bolder;
     margin-bottom: 10px;
 }
 .descricaocard p{
     font-size: 20px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     color: rgba(255, 255, 255, 0.493);
     margin-bottom: 30px;
 }
@@ -230,7 +230,7 @@
     display: flex;
     gap: 10px;
     margin-top: 80px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
 }
 #tec{
     width: 120px;
@@ -260,7 +260,7 @@
     line-height: 40px;
     border: 2px solid #fffefe91;
     cursor: pointer;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -277,7 +277,7 @@
     line-height: 40px;
     border: 2px solid #fffefe91;
     cursor: pointer;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -301,7 +301,7 @@
     font-size: 25px;
     font-weight: bolder;
     line-height: 30px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     color: rgba(255, 255, 255, 0.596);
     
 

@@ -17,10 +17,10 @@ nav{
     border-radius: 10px;
     box-shadow: 0px 0px 10px #bb28d5 ;
     margin: auto;
-    
+    font-family: var(--fonte-principal);
 }
 .logo p{
-    font-family: "geist" 'Paytone One', sans-serif;
+    
     color: #fff;
     font-size: 25px;
     text-align: center;
@@ -33,12 +33,12 @@ nav{
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     margin-bottom: 300px;
 }
 #nav{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 35px;
     margin: auto;
     border-radius: 5px;
     /* Define a cor do preenchimento */
@@ -54,7 +54,12 @@ nav{
     stroke-width: 5px; /* Um valor pequeno aqui já ajuda a dar peso */
     stroke-opacity: 0.4; /* Mantém a mesma transparência da linha */
     
-    text-align: center;
+    
+}
+#nav svg{
+    width: 100%;
+    height: 100%;
+    
 }
 .social{
     width: 100%;
@@ -85,7 +90,16 @@ nav{
     font-family:  sans-serif;
     font-size: 18px;
 }
+.home{
 
+    background-color: #1c0f22;
+    border: 1px solid #b762df;
+    
+}
+.home svg{
+    fill:  #d16eff;
+    
+}
 
 
 

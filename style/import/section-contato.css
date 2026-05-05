@@ -8,17 +8,18 @@
 .flexTituloContato{
     width: 100%;
     display: flex;
-    color: white;
     align-items: center;
     gap: 20px;
     font-size: 35px;
-    color: rgb(166, 54, 180);;
+    color: var(--cor-titulo);
     margin-bottom: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
 }
 .divisor{
     width: 80px;
     height: 2px;
-    background-color:rgb(166, 54, 180);
+    background-color:var(--cor-titulo);
     margin-left: 20px;
 
 }
@@ -27,15 +28,18 @@
     height: 200px;
     color: white;
     margin-bottom: 130px;
+    font-family: var(--fonte-principal);
 }
 .txtcontatoprimario h1{
     font-size: 80px;
     margin-bottom: 30px;
+    font-family: var(--fonte-principal);
     
 }.txtcontatoprimario p{
     font-size: 25px;
     color: rgb(108, 104, 114);
     font-weight: 200;
+    font-family: var(--fonte-principal);
     
 }
 .flexlinkscontato{
@@ -127,6 +131,7 @@
 /* cor do titulo primario  */
 #colorcontato{
     color: rgb(131, 130, 130);
+    font-family: var(--fonte-principal);
     font-weight: bold;
 }
 .disponibilidade{

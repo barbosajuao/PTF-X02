@@ -16,11 +16,11 @@
     height: 100px;
     margin-top: 150px;
     display: flex;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 40px;
     align-items: center;
     gap: 20px;
-    color: rgb(158, 85, 226);
+    color: var(--cor-titulo);
     font-weight: bold;
 }
 .espacador-sobre-mim{
@@ -33,7 +33,7 @@
     height: 200px;
     font-weight: bold;
     font-size: 70px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
 }
 #txtsobrecinza{
     color: #4b5563;
@@ -50,7 +50,7 @@
     width: 30%;
     font-size: 25px;
     color: #5c6064;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 100;
     text-align: justify;
 }
@@ -98,7 +98,7 @@
     color: #ffffffc4;
     margin-bottom: 5px;
     font-weight: bold;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
 }
 .flexano{
     display: flex;
@@ -152,7 +152,7 @@
     height: 50px;
     font-size: 28px;
     margin-top: 30px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 900;
 }
 .box01 p{
@@ -161,7 +161,7 @@
     font-size: 20px;
     margin-top: 20px;
     color: #7b8085e3;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 100;
     
 }
@@ -187,7 +187,7 @@
     height: 50px;
     font-size: 28px;
     margin-top: 30px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 900;
 }
 .box02 p{
@@ -196,7 +196,7 @@
     font-size: 20px;
     margin-top: 20px;
     color: #7b8085e3;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 100;
     
 }
@@ -225,7 +225,7 @@
     height: 50px;
     font-size: 28px;
     margin-top: 30px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 900;
 }
 .box03 p{
@@ -234,7 +234,7 @@
     font-size: 20px;
     margin-top: 20px;
     color: #7b8085e3;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 100;
     
 }
@@ -262,7 +262,7 @@
     height: 50px;
     font-size: 28px;
     margin-top: 30px;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 900;
 }
 .box04 p{
@@ -271,7 +271,7 @@
     font-size: 20px;
     margin-top: 20px;
     color: #7b8085e3;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 100;
     
 }

@@ -1,0 +1,89 @@
+@media screen and (max-width: 1440px) {
+
+    .textapresentacao , .padding01 , .padding02 , .padding03 , .padding04 {
+    
+         padding-left: 90px;
+        
+    
+    }
+    .textapresentacao h2 , .textapresentacao h3{
+        font-size: 80px;
+        
+    }
+    .textapresentacao h2{
+        margin-top: 150px;
+        margin-bottom: -80px;
+    }
+    .textapresentacao h3{
+        margin-top: 80px;
+    }
+
+    .flex-butoon{
+        margin-bottom: -30px;
+    }
+
+    .statusapresentacao{
+        margin-top: 150px;
+        margin-bottom: -130px;
+    }
+    .containercard{
+        width: 100%;
+        height: 600px;
+        margin-top: 180px;
+        padding: 15px;
+        
+    }
+    .descricaocard{
+        width: 100%;
+        
+    
+    }
+    .descricaocard h1{
+        margin-top: -20px;
+    }
+    .flextec{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        gap: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .opentowork{
+        width: 70%;
+       
+    }
+    .scroll{
+        
+        margin-top: -60px;
+    
+    } 
+    .navegacao{
+        gap: 30px;
+        margin-top: 60px;
+        margin-bottom: 200px;
+    }
+    #nav{
+        width: 60px;
+        height: 30px;
+    }
+
+    /* tela apresentacao acima */
+    
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+}

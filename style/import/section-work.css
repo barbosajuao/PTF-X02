@@ -14,7 +14,8 @@
     align-items: center;
     gap: 20px;
     font-size: 30px;
-    color: blueviolet;
+    color: var(--cor-titulo);
+    font-family: var(--fonte-principal);
     font-weight: 900;
 }
 .espacador-work{
@@ -37,11 +38,13 @@
     font-size: 80px;
     font-weight: bold;
     color: white;
+    font-family: var(--fonte-principal);
     
 
 }
 #destaquegreem{
     color: rgb(119, 115, 115);
+    font-family: var(--fonte-principal);
 }
 .destaque2{
     height: 100%;
@@ -60,6 +63,7 @@
     align-items: center;
     cursor: pointer;
     margin-top: 30px;
+    font-family: var(--fonte-principal);
 }
 .svgpesuisa{
     width: 30px;
@@ -120,6 +124,7 @@
     border-radius: 30px;
     border: 3px solid #838285;
     
+    
 }
 .imgfundo , .imgfundo02{
     width: 100%;
@@ -158,6 +163,7 @@
     color: white;
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: var(--fonte-principal);
 }
 .flextecscard{
     width: 100%;
@@ -265,7 +271,7 @@
 .txtcarddestaquegeral h1{
     color: white;
     font-size: 20px;
-    
+    font-family: var(--fonte-principal);
     margin-bottom: 20px;
 
 }

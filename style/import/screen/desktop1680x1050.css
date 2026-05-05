@@ -1,0 +1,79 @@
+@media screen and (max-width: 1680px) {
+
+    .textapresentacao , .padding01 , .padding02 , .padding03 , .padding04 {
+    
+         padding-left: 150px;
+    
+    }
+    .padding02{
+        height: 2000px;
+    }
+    .textapresentacao{
+        width: 65%;
+        
+    }
+    .textapresentacao #descricaoapresentao{
+        width: 90%;
+    }
+    #boxsobre p{
+       margin-top: 50px;
+    }
+
+
+
+
+
+
+
+
+
+    .containercard{
+         width: 100%;
+    
+    }
+    .flextecscardgeral{
+        
+        gap: 10px;
+        
+    }
+
+    .carddestaque01 , .carddestaque02{
+        width: 57%;
+        height: 100%;
+        background-color: #111118;
+        border-radius: 30px;
+        border: 3px solid #838285;
+    
+    
+    }
+    .flexcardworkgeral{
+        width: 90%;
+        justify-content: center;
+    }
+    .totalcards{
+        width: 350px;
+
+    }
+
+    .flexbuttonstak{
+        width: 50%;
+        
+    }
+    #cssbuttoncontato{
+        width: 45%;
+        
+    }
+    .disponibilidade{
+        width: 92%;
+    }
+
+
+
+
+
+    
+
+
+
+
+}

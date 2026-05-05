@@ -8,13 +8,15 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    color: rgb(180, 58, 196);
+    color: var(--cor-titulo);
     font-size: 30px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
 }
 .espacador{
     width: 70px;
     height: 2px;
-    background-color:rgb(166, 54, 180);
+    background-color:var(--cor-titulo)
 }
 .flextxtstak{
     display: flex;
@@ -22,6 +24,7 @@
     font-size: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: var(--fonte-principal);
 }
 .flextxtstak p:nth-child(2){
     color: rgb(65, 65, 65);
@@ -32,6 +35,7 @@
     display: flex;
     gap: 20px;
     color: white;
+    font-family: var(--fonte-principal);
     
 }
 .flexbuttonstak{
