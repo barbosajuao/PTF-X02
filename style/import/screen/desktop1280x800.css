@@ -1,0 +1,72 @@
+@media screen and (max-width:1280px){
+
+    
+    .descricaocard h1{
+        width: 100%;
+        font-size: 35px;
+        
+    }
+    .titulo-section-sobre{
+        margin-top: 100px;
+        
+    }
+    .text-sobre-min{
+        margin-top: 10px;
+    }
+    .boxtxt{
+        width: 80%;
+    }
+    #txtsobrecinza{
+        font-size: 45px;
+    }
+    #tec{
+        font-size: 12px;
+    }
+    .buttonapresentacao1 , .buttonapresentacao2{
+        font-size: 20px;
+    }
+    .carddestaque01 , .carddestaque02{
+        width: 55%;
+    }
+    .padding02{
+        height: 2000px;
+    }
+    #ultimocard{
+        display: none;
+    }
+    .flexbuttonstak{
+        width: 45%;
+    }
+    .flexstakconteudo{
+        gap: 0px;
+    }
+    .tecnologiasstack{
+        width: 50%;
+    }
+    #bottomtxtcontato{
+        font-size: 20px;
+    }
+    .txtcontato{
+        width: 50%;
+        
+        
+    }
+    .txtgithub{
+        width: 25%;
+    }
+    .txtwhatsapp{
+        width: 65%;
+        
+        margin: 0px !important;
+        
+    }
+
+
+
+
+
+
+
+
+
+}
