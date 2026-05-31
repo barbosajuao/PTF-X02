@@ -1,6 +1,11 @@
 @media screen and (max-width:1280px){
 
+    .textapresentacao , .padding01 , .padding02 , .padding03 , .padding04 {
     
+         padding-left: 40px !important;
+        
+    
+    }
     .descricaocard h1{
         width: 100%;
         font-size: 35px;
@@ -38,6 +43,7 @@
         width: 45%;
     }
     .flexstakconteudo{
+        width: 98%;
         gap: 0px;
     }
     .tecnologiasstack{
@@ -60,6 +66,14 @@
         margin: 0px !important;
         
     }
+    .opentowork{
+        width: 80% !important;
+       
+    }
+    .boxtxt{
+        width: 60% !important;
+    }
+
 
 
 

@@ -2,7 +2,7 @@
 
     .textapresentacao , .padding01 , .padding02 , .padding03 , .padding04 {
     
-         padding-left: 90px;
+         padding-left: 70px !important;
         
     
     }
@@ -52,7 +52,7 @@
     }
     
     .opentowork{
-        width: 70%;
+        width: 70% !important;
        
     }
     .scroll{
@@ -84,6 +84,9 @@
     }
     .padding03{
         margin-top: 150px;
+    }
+    .txtwhatsapp p{
+        width: 200%;
     }
 
     
