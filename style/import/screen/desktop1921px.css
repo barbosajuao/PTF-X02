@@ -1,4 +1,4 @@
-@media screen and (max-width: 1911px) {
+@media screen and (max-width: 1921px) {
 
     .textapresentacao , .padding01 , .padding02 , .padding03 , .padding04 {
     
@@ -29,6 +29,7 @@
 
     .containercard{
          width: 100%;
+        
     
     }
     .flextecscardgeral{
@@ -37,7 +38,7 @@
         
     }
     .opentowork{
-        width: 30%;
+        width: 35%;
     }
 
     .carddestaque01 , .carddestaque02{
