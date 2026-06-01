@@ -192,7 +192,7 @@
     padding-right: 10px;
 }
 .opentowork{
-    width: 40%;
+    width: 45%;
     height: 60%;
     display: flex;
     background-color: #10A976;
@@ -213,7 +213,7 @@
     
 }
 .descricaocard h1{
-    font-size: 40px;
+    font-size: 32px;
     font-family: var(--fonte-principal);
     font-weight: bolder;
     margin-bottom: 10px;
