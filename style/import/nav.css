@@ -1,3 +1,9 @@
+
+.NavMobile , .selectNavMobile{
+    display: none;
+}
+
+
 nav{
     width: 90px;
     height: 100vw;

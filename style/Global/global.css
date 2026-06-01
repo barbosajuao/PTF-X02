@@ -13,4 +13,6 @@
 @import url(/style/import/screen/desktop1680x1050.css);
 @import url(/style/import/screen/notebook1440x900.css);
 @import url(/style/import/screen/desktop1280x800.css);
-@import url(/style/import/screen/desktop1921px.css);
+
+/* mobile */
+@import url(/style/import/screen/mobile834px.css);

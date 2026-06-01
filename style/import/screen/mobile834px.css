@@ -1,0 +1,133 @@
+@media screen and (max-width: 840px) {
+
+   .NavDesktop {
+        display: none;
+    }
+    .NavMobile{
+        height:100px;
+        width: 100%;
+        background-color: #0a0a0f;
+        display: flex;
+        padding-left: 45px;
+        padding-right: 45px;
+        margin-top: -5px;
+    }
+    .flexNav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+    }
+    .flexNav .logo{
+        margin: 0;
+    }
+    .buttonNavMobile{
+        width: 50px;
+        height: 50px;
+        background-color: #4b4b4b;
+        border-radius: 10px;
+        
+        
+    }
+
+    .container{
+        width: 100%;
+        height: 1700px;
+        padding:5px;
+        
+    }
+    .flex-profile{
+        flex-direction: column;
+        
+        
+    }
+    .textapresentacao{
+        width: 100%;
+        
+        
+    }
+    .statusapresentacao{
+        width: 40%;
+        font-size: 25px;
+    }
+    .containerperfil{
+        margin-top: -1100px;
+    }
+    .flexnumeros{
+        width: 100%;
+        font-size: 30px;
+    }
+    .cardapresentacao{
+        width: 80%;
+        
+        margin: 0 auto;
+        margin-top: 250px;
+        
+    }
+    .containercard{
+        width: 70%;
+        height: 700px !important;
+         margin: 0 auto;
+         margin-top: 170px;
+    }
+    .scroll{
+        display: none;
+    }
+    .sobre-mim .container{
+        height: 2200px;
+        
+    }
+    
+    .flex-sobre-mim{
+        flex-direction: column;
+    }
+    .text-sobre-min{
+        width: 90%;
+    }
+    .boxtxt{
+        width: 110% !important;
+        
+    }
+    .padding02{
+        margin-top: 800px;
+    }
+    .flexh1work{
+        height: 400px;
+        flex-direction: column;
+        
+       
+    }
+    .txtdestaque{
+        width: 100%;
+        
+    }
+    .destaque2{
+        width: 90%;
+        height: 500px !important;
+        margin-top: 0;
+        margin-left: -70px;
+        font-size: 30px;
+        line-height: normal;
+        
+        
+    }
+    .destaque2 p{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+    }
+    .flexatalhos{
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .works .container{
+        height: 4000px;
+    }
+
+
+   
+
+
+
+}
