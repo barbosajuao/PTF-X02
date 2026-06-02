@@ -1,0 +1,8 @@
+@media screen and (max-width: 770px) {
+    .containerperfil{
+        margin-top: -950px;
+    }
+    .opentowork{
+        width: 60%!important;
+    }
+}

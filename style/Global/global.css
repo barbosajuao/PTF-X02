@@ -9,6 +9,11 @@
 @import url(/style/import/section-contato.css);
 @import url(/style/import/footer.css);
 
+/* animacoes */
+@import url(/style/Global/animacaoWhatss.css);
+@import url(/style/Global/animacaobola.css);
+
+
 /* midia queries */
 @import url(/style/import/screen/desktop1680x1050.css);
 @import url(/style/import/screen/notebook1440x900.css);
@@ -16,3 +21,5 @@
 
 /* mobile */
 @import url(/style/import/screen/mobile834px.css);
+@import url(/style/import/screen/mobile800px.css);
+@import url(/style/import/screen/mobile770px.css);

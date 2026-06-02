@@ -1,0 +1,41 @@
+   
+   
+.whatts{
+    width: 80px;
+    height: 80px;
+    background-color: #25d366;
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    cursor: pointer;
+    animation: pulsar 2s infinite ease-in-out;
+    display: block;
+    
+}
+.whatts svg{
+    width: 50%;
+    height: 50%;
+    fill: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+   
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); /* Efeito de brilho opcional */
+    }
+    50% {
+        transform: scale(1.20); /* Cresce 8% */
+        box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); /* Brilho se expande e some */
+    }
+    100% {
+        transform: scale(1); /* Volta ao normal */
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}

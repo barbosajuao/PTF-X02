@@ -70,6 +70,10 @@
          margin: 0 auto;
          margin-top: 170px;
     }
+    .opentowork{
+        width: 50%!important;
+    }
+
     .scroll{
         display: none;
     }
@@ -122,11 +126,125 @@
     }
 
     .works .container{
-        height: 4000px;
+        height: 4800px;
     }
 
+    .flexcardworkdestaque{
+        width: 90%;
+        height: 1500px;
+        margin-top:30px;
+        
+        flex-direction: column;
+        gap: 20px;
+    }
+    .carddestaque01 , .carddestaque02{
+        width: 100%;
+        height: 900px;
+        font-size: 40px !important;
+        
+    }
+    .totalcards {
+        width: 100%;
+        height: 700px;
+    }
+    .txtcarddestaque ,.txtcarddestaque02 {
+        font-size: 25px !important;
+        margin-bottom: 100px;
+    }
+    .txtcarddestaquegeral{
+        margin-bottom: 150px;
+    }
+    .txtcarddestaquegeral h1{
+        font-size: 35px !important;
+        margin-bottom: 50px;
+    }
+    .txtcarddestaquegeral p{
+        font-size: 25px !important;
+        
+        
+        
 
-   
+    }
+    .linksdemocard01 , .linksdemocard02 , .linksdemocardgeral {
+        font-size: 25px !important;
+    }
+    .flextecscardgeral{
+        margin-top: 50px;
+    }
+    .flextecscard p{
+        font-size: 25px !important;
+    }
+
+    .flexstakconteudo{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .flexbuttonstak , .tecnologiasstack{
+        width: 90%;
+        
+    }
+    #cssbuttonstack{
+        width: 100%;
+    }
+    .flexlinkscontato{
+        width: 90%;
+        height: 600px;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    #cssbuttoncontato{
+        width: 100% !important;
+       
+    }
+    #bottomtxtcontato{
+        font-size: 25px !important;
+    }
+    .txtcontato{
+        margin-right: 100px !important;
+    }
+    .txtgithub{
+        margin-right: 260px !important;
+    }
+    .disponibilidade{
+        width: 90%;
+        height: 150px;
+        padding-top: 35px !important;
+        margin-top: 10px;
+    }
+    .contato .container{
+        height: 1000px;
+    }
+    footer .container{
+        height: 200px;
+    }
+    .paddingfooter{
+        width: 90%;
+        padding-left: 50px !important;
+        font-size: 25px;
+    }
+    .flexfooter{
+        width: 90%;
+    }
+    #footerlogo{
+        width: 80px;
+        
+    }
+
+    .whatts{
+    width: 70px;
+    height: 70px;
+    background-color: #25d366;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    cursor: pointer;
+    animation: pulsar 2s infinite ease-in-out;
+    display: block;
+    
+}
 
 
 
