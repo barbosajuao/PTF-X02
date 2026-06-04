@@ -12,3 +12,7 @@ ul[role="list"]{
 body{
     background-color: #0a0a0f;
 }
+
+html {
+    scroll-behavior: smooth; /* Comportamento do scroll: suave */
+}

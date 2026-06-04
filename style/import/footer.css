@@ -2,6 +2,9 @@ footer{
     height: 100px;
     color:rgb(102, 101, 101)
 }
+footer .container{
+    margin-top: 4100px;
+}
 
 .divisoriafooter{
     width: 100%;

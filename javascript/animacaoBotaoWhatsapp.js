@@ -4,7 +4,7 @@ export function animacaoBotaoWhatsapp() {
     const secoes = document.querySelectorAll(".containerperfil");
     const aparecer ={
         root: null, /* root: null: Diz que a nossa área de teste é a própria tela visível do navegador. */
-        threshold: 0.3, /* threshold: 0.5: É a linha de corte. 0.5 significa $50\%$ do elemento visível. */
+        threshold: 0.3, /* threshold: 0.5: É a linha de corte. 0.5 significa $50\%$ do elemento visível.. */
     }
 
    /* estudar a fundo o IntersectionObserver */
