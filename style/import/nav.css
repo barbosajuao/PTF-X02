@@ -43,12 +43,13 @@ nav{
     margin-bottom: 300px;
 }
 #nav{
-    width: 70px;
+    width: 70px !important;
     height: 35px;
     margin: auto;
     border-radius: 5px;
     position: relative;
     display: inline-block;
+    
     /* Define a cor do preenchimento */
     
     

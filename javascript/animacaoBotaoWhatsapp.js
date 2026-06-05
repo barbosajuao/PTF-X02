@@ -1,5 +1,5 @@
 export function animacaoBotaoWhatsapp() {
-    console.log ("animacaoBotaoWhatsapp carregado");
+    
     const botaoWhatsapp = document.querySelector(".whatts");/* pegando botao do whatsapp */
     const secoes = document.querySelectorAll(".containerperfil");
     const aparecer ={
@@ -13,7 +13,7 @@ export function animacaoBotaoWhatsapp() {
    
     if (entry.isIntersecting) {
       
-      console.log("O usuário está na seção: " + entry.target.id);
+      
       
       // Aqui dentro você pode colocar sua lógica, ex:
       // - Adicionar uma classe CSS para pintar o botão do menu
