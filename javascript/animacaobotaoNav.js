@@ -157,12 +157,19 @@ export function animacaoBotaoNav() {
     // 1. Selecionamos as seções usando querySelector (se for elemento único, não precisa de querySelectorAll)
     const secaoHome = document.querySelector(".containerperfil"); // Ajuste o seletor se necessário
     const secaoSobre = document.querySelector("#sobremim");
+    const secaoProjetos = document.querySelector("#projetos");
+    const secaoSkills = document.querySelector("#stak");
+    const secaoContato = document.querySelector("#contato");
+    
 
     // Configurações do observador
-    const aparecer = {
-        root: null,
-        threshold: 0.4, 
-    };
+    // Configurações do observador ajustadas para elementos grandes
+    // um grande problema que tive foi por causa do tamanho do container de projetos por ele ser muito grande o threshold de 0.4 não estava funcionando, então mudei para 0.1 e agora funciona perfeitamente, ou seja, quando 10% da seção entrar na tela já acende o botão correspondente
+        const aparecer = {
+             root: null,
+            // 👇 Mudamos de 0.4 para 0.1 (10% de interseção já basta!)
+            threshold: 0.2, 
+        };
 
     // 2. Função mágica de RESET: Apaga todos de uma vez só antes de acender o atual
     function resetarBotoes() {
@@ -207,6 +214,26 @@ export function animacaoBotaoNav() {
                     botaoSobre.style.border = "1px solid #b762df"; 
                     svgSobre.style.setProperty("fill", "#c580e5", "important");
                 }
+
+                if (elementoAlvo.id === "projetos") {
+                    
+                    botaoProjetos.style.backgroundColor = "#1c0f22";
+                    botaoProjetos.style.border = "1px solid #b762df"; 
+                    svgProjetos.style.setProperty("fill", "#c580e5", "important");
+                }
+
+                if (elementoAlvo.id === "stak") {
+                    console.log("entrou skill");
+                    botaoSkil.style.backgroundColor = "#1c0f22";
+                    botaoSkil.style.border = "1px solid #b762df"; 
+                    svgSkill.style.setProperty("fill", "#c580e5", "important");
+                }
+                if (elementoAlvo.id === "contato") {
+                    console.log("entrou contato");
+                    botaoContato.style.backgroundColor = "#1c0f22";
+                    botaoContato.style.border = "1px solid #b762df"; 
+                    svgContato.style.setProperty("fill", "#c580e5", "important");
+                }
             
                 // Daqui a pouco você pode adicionar os ifs das outras seções aqui dentro!
             }
@@ -216,6 +243,8 @@ export function animacaoBotaoNav() {
     // 4. Mandamos o mesmo vigia observar as duas seções
     if (secaoHome) vigia.observe(secaoHome);
     if (secaoSobre) vigia.observe(secaoSobre);
-
+    if (secaoProjetos) vigia.observe(secaoProjetos);
+    if (secaoSkills) vigia.observe(secaoSkills);
+    if (secaoContato) vigia.observe(secaoContato);
 
 }
