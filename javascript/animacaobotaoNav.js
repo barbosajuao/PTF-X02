@@ -154,7 +154,7 @@ export function animacaoBotaoNav() {
 
     /* animacao scroll */
 
-    // 1. Selecionamos as seções usando querySelector (se for elemento único, não precisa de querySelectorAll)
+    // 1. Seleciona as seções usando querySelector (se for elemento único, não precisa de querySelectorAll)
     const secaoHome = document.querySelector(".containerperfil"); // Ajuste o seletor se necessário
     const secaoSobre = document.querySelector("#sobremim");
     const secaoProjetos = document.querySelector("#projetos");
@@ -167,11 +167,11 @@ export function animacaoBotaoNav() {
     // um grande problema que tive foi por causa do tamanho do container de projetos por ele ser muito grande o threshold de 0.4 não estava funcionando, então mudei para 0.1 e agora funciona perfeitamente, ou seja, quando 10% da seção entrar na tela já acende o botão correspondente
         const aparecer = {
              root: null,
-            // 👇 Mudamos de 0.4 para 0.1 (10% de interseção já basta!)
+            // 👇 Mudamos de 0.4 para 0.2 (10% de interseção já basta!) resolveu o problema do tamanho do meu container pois o observador nao conseguia ver ele 
             threshold: 0.2, 
         };
 
-    // 2. Função mágica de RESET: Apaga todos de uma vez só antes de acender o atual
+    // fazendo reset procurar uma arquitetura melhor para fazer isso
     function resetarBotoes() {
         const todosBotoes = [botaoHome, botaoSobre, botaoProjetos, botaoSkil, botaoContato];
         const todosSvgs = [svgHome, svgSobre, svgProjetos, svgSkill, svgContato];
@@ -188,17 +188,17 @@ export function animacaoBotaoNav() {
         });
     }   
 
-    // 3. O ÚNICO VIGIA CENTRAL
+    
     const vigia = new IntersectionObserver(function(entries) {
         entries.forEach(entry => {
         
             // Se a seção entrou na tela...
             if (entry.isIntersecting) {
             
-                // Apagamos todos os botões primeiro
+                // Apaga todos os botões primeiro
                 resetarBotoes();
 
-                // Descobrimos quem entrou na tela olhando para a classe ou id dela
+                // Descobri quem entrou na tela olhando para a classe ou id dela
                 const elementoAlvo = entry.target;
 
                 // Se quem entrou foi o Perfil/Home
@@ -235,12 +235,12 @@ export function animacaoBotaoNav() {
                     svgContato.style.setProperty("fill", "#c580e5", "important");
                 }
             
-                // Daqui a pouco você pode adicionar os ifs das outras seções aqui dentro!
+                
             }
         });
     }, aparecer);
 
-    // 4. Mandamos o mesmo vigia observar as duas seções
+    // o mesmo vigia observar as  seções
     if (secaoHome) vigia.observe(secaoHome);
     if (secaoSobre) vigia.observe(secaoSobre);
     if (secaoProjetos) vigia.observe(secaoProjetos);
