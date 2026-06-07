@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<!--Este portfólio foi construído intencionalmente usando Vanilla JS puro. A escolha por não utilizar frameworks nesta interface foi uma decisão puramente arquitetural:
+
+Zero Overhead: Sem tempo de parsing, hidratação ou reconciliação de bibliotecas. Performance bruta focada em entregar as menores métricas possíveis de LCP e INP.
+
+Domínio dos Fundamentos: Manipulação cirúrgica do DOM, gerenciamento nativo do Event Loop e controle absoluto sobre o ciclo de vida da aplicação e consumo de memória.
+
+Isso significa que eu não domino frameworks? Muito pelo contrário. Domínio de ferramentas é commodity. No menu de [Casos de Estudo], você encontrará sistemas de alta complexidade desenvolvidos com React, Node.js, Go e Java.
+
+A escolha pelo Vanilla aqui apenas reflete um princípio de engenharia: usar a ferramenta certa para o problema certo, priorizando a eficiência máxima antes do hype.
+
+Se você é do time de engenharia do iFood (ou de outra tech que respira alta disponibilidade e performance), sinta-se em casa. O código-fonte deste core está limpo, modular e totalmente disponível no meu GitHub. -->
+
+
 <head>
 
     <meta charset="UTF-8">
@@ -1228,77 +1242,75 @@
                             <p>Projetos reais que resolvem problemas reais do conceito ao deploy.</p>
                         </div>
                     </div>
-                    <div class="inputpesquisa">
-                        <div class="svgpesuisa">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
-                        </div>
-                        <div class="txtpesquisa">
-                            <p>Buscar Projetos...</p>
-                        </div>
+                    <!-- pesquisa -->
+                    <div class="imput">
+                        <input type="text" name="" id="" class="inputpesquisa" placeholder="Pesquisar Tecnologias...">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
                     </div>
+
                     <div class="flexatalhos">
-                        <div class="atalho" id="selection">
+                        <div class="atalho todos" id="selection">
                             <p>Todos</p>
                         </div>
-                        <div class="atalho" id="maior">
+                        <div class="atalho Integration" id="maior">
                             <p>API Integration</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho AWS">
                             <p>AWS</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho React">
                             <p>React</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho Node">
                             <p>Node.js</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho Python">
                             <p>Python</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho Java">
                             <p>Java</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho Express">
                             <p>Express</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho TypeScript">
                             <p>TypeScript</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho PostgresSQL">
                             <p>PostgresSQL</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho MongoDB">
                             <p>MongoDB</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho Redis">
                             <p>Redis</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho Docker">
                             <p>Docker</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho Kubernetes">
                             <p>Kubernetes</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho Azure">
                             <p>Azure</p>
                         </div>
-                        <div class="atalho">
+                        <div class="atalho GCP">
                             <p>GCP</p>
                         </div>
                     </div>
                     <div class="flexcardworkdestaque">
-                        <div class="carddestaque01">
+                        <div class="carddestaque01 filtrocards" >
                             <div class="imgfundo">
                                 <div class="ano"><p>2026</p></div>
                             </div>
                             <div class="txtcarddestaque">
-                                <h1>NexCommerce </h1>
+                                <h1>NexCommerce</h1>
                                 <p>Uma plataforma de e-commerce escalável construída com React, Node.js e AWS, oferecendo uma experiência de compra fluida e segura.</p>
                                 <div class="flextecscard">
-                                    <div id="tec"><p>React</p></div>
-                                    <div id="tec"><p>Nodejs</p></div>
-                                    <div id="tec"><p>AWS</p></div>
-                                    <div id="tec"><p>JAVA</p></div>
+                                    <div id="tec" class="cardpesquisa"><h6>React</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>Nodejs</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>AWS</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>JAVA</h6></div>
                                 </div>
                             </div>
                             <div class="linksdemocard01">
@@ -1318,18 +1330,18 @@
                         </div>
                         <!-- card02 -->
 
-                        <div class="carddestaque02">
+                        <div class="carddestaque02 filtrocards"  >
                              <div class="imgfundo02">
                                 <div class="ano02"><P>2025</P></div>
                             </div>
                             <div class="txtcarddestaque02">
-                                <h1>NexCommerce </h1>
+                                <h1>NexCommerce</h1>
                                 <p>Uma plataforma de e-commerce escalável construída com React, Node.js e AWS, oferecendo uma experiência de compra fluida e segura.</p>
                                 <div class="flextecscard">
-                                    <div id="tec"><p>React</p></div>
-                                    <div id="tec"><p>Nodejs</p></div>
-                                    <div id="tec"><p>AWS</p></div>
-                                    <div id="tec"><p>JAVA   </p></div>
+                                    <div id="tec" class="cardpesquisa"><h6>vanila</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>Nodejs</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>AWS</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>JAVA   </h6></div>
                                 </div>
                             </div>
                             <div class="linksdemocard02">
@@ -1350,18 +1362,18 @@
                     </div>
                     <!-- cards geral -->
                     <div class="flexcardworkgeral">
-                        <div class="totalcards ">
-                             <div class="imgfundo03">
+                        <div class="totalcards filtrocards " >
+                            <div class="imgfundo03">
                                 <div class="anototalcard"><P>2025</P></div>
                             </div>
                             <div class="txtcarddestaquegeral">
-                                <h1>NexCommerce </h1>
+                                <h1>NexCommerce</h1>
                                 <p>Uma plataforma de e-commerce escalável construída com React, Node.js e AWS, oferecendo uma experiência de compra fluida e segura.</p>
                                 <div class="flextecscardgeral">
-                                    <div id="tec"><p>React</p></div>
-                                    <div id="tec"><p>Nodejs</p></div>
-                                    <div id="tec"><p>AWS</p></div>
-                                    <div id="tec"><p>JAVA   </p></div>
+                                    <div id="tec" class="cardpesquisa"><h6>React</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>Nodejs</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>mongodb</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>JAVA   </h6></div>
                                 </div>
                             </div>
                             <div class="linksdemocardgeral">
@@ -1382,18 +1394,18 @@
 
 
 
-                        <div class="totalcards">
+                        <div class="totalcards filtrocards" >
                              <div class="imgfundo04">
                                 <div class="anototalcard"><P>2025</P></div>
                             </div>
                             <div class="txtcarddestaquegeral">
-                                <h1>NexCommerce </h1>
+                                <h1>NexCommerce</h1>
                                 <p>Uma plataforma de e-commerce escalável construída com React, Node.js e AWS, oferecendo uma experiência de compra fluida e segura.</p>
                                 <div class="flextecscardgeral">
-                                    <div id="tec"><p>React</p></div>
-                                    <div id="tec"><p>Nodejs</p></div>
-                                    <div id="tec"><p>AWS</p></div>
-                                    <div id="tec"><p>JAVA   </p></div>
+                                    <div id="tec" class="cardpesquisa"><h6>React</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>Nodejs</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>AWS</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>spring</h6></div>
                                 </div>
                             </div>
                             <div class="linksdemocardgeral">
@@ -1414,18 +1426,18 @@
 
 
 
-                        <div class="totalcards" id="ultimocard">
+                        <div class="totalcards filtrocards" >
                              <div class="imgfundo05">
                                 <div class="anototalcard"><P>2025</P></div>
                             </div>
                             <div class="txtcarddestaquegeral">
-                                <h1>NexCommerce </h1>
+                                <h1>txtlorem</h1>
                                 <p>Uma plataforma de e-commerce escalável construída com React, Node.js e AWS, oferecendo uma experiência de compra fluida e segura.</p>
                                 <div class="flextecscardgeral">
-                                    <div id="tec"><p>React</p></div>
-                                    <div id="tec"><p>Nodejs</p></div>
-                                    <div id="tec"><p>AWS</p></div>
-                                    <div id="tec"><p>JAVA   </p></div>
+                                    <div id="tec" class="cardpesquisa"><h6>React</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>typescript</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>AWS</h6></div>
+                                    <div id="tec" class="cardpesquisa"><h6>JAVA   </h6></div>
                                 </div>
                             </div>
                             <div class="linksdemocardgeral">

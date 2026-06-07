@@ -53,9 +53,26 @@
     
     line-height: 12;
 }
-.inputpesquisa{
+/* pesquisa */
+.imput{
     width: 70%;
-    height: 60px;
+    height: 3%;
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.imput svg{
+    position: absolute;
+    right: 20px;
+    top: 97%;
+    transform: translateY(-50%);
+    fill: rgb(70, 70, 70);
+    cursor: pointer;
+}
+.inputpesquisa{
+    width: 100%;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     line-height: 60px;
@@ -64,6 +81,7 @@
     cursor: pointer;
     margin-top: 30px;
     font-family: var(--fonte-principal);
+    padding-left: 20px;
 }
 .svgpesuisa{
     width: 30px;
@@ -84,7 +102,7 @@
     
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 150px;
 }
 .atalho{
@@ -111,7 +129,7 @@
 }
 .flexcardworkdestaque{
     width: 80%;
-    height: 700px;
+    min-height: 0px;
     display: flex;
     
     gap: 20px;
@@ -119,7 +137,7 @@
 /* inicio cardes em destaque */
 .carddestaque01 , .carddestaque02{
     width: 50%;
-    height: 100%;
+    height: 700px;
     background-color: #111118;
     border-radius: 30px;
     border: 3px solid #838285;
@@ -132,7 +150,7 @@
     background-color: #856be23f;
     border-radius: 0px 20px 0px 0px 20px;
     padding-top: 20px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
 }
 .ano , .ano02{
     width: 70px;
@@ -245,7 +263,7 @@
     background-color: #856be23f;
     border-radius: 0px 20px 0px 0px 20px;
     padding-top: 20px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
 }
 .anototalcard{
     width: 70px;
@@ -292,6 +310,32 @@
     font-size: 16px;
     font-weight: 900;
     margin-top: 30px;
+}
+
+.imgfundo{
+    background-image: url(/img/QmcgqG4xzF67YfSJEAGUFo72Gm8NLWf8D7xXHp3CXRdguG.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgfundo02{
+    background-image: url(/img/QmRJ1zRbFn17YnvXCuzvBErZ3Be1VsbvgWGuKWXEMxUCMp.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgfundo03{
+    background-image: url(/img/QmSqtNm63tWzWTdB6oiPAKiMMvyFokcq9pxyRWg2eY7nP8.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgfundo04{
+    background-image: url(/img/Tech\ Professional\ at\ Work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgfundo05{
+    background-image: url(/img/Software\ Developer\ at\ Work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 

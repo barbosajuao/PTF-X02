@@ -5,3 +5,7 @@ animacaoBotaoWhatsapp();
 
 import {animacaoBotaoNav} from "./animacaobotaoNav.js";
 animacaoBotaoNav();
+
+
+import {filtroDeBuscas} from "./filtroDeBuscas.js";
+filtroDeBuscas();
