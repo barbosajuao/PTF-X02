@@ -9,3 +9,9 @@ animacaoBotaoNav();
 
 import {filtroDeBuscas} from "./filtroDeBuscas.js";
 filtroDeBuscas();
+
+import {AnimacaoTecnologias} from "./AnimacaoTecnologias.js";
+AnimacaoTecnologias();
+
+import {animacaoapresentacao} from "./animacaonomeapresentacao.js";
+animacaoapresentacao();

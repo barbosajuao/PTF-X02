@@ -34,7 +34,7 @@
 
     display: flex;
     gap: 20px;
-    color: white;
+    color: rgba(255, 255, 255, 0.663);
     font-family: var(--fonte-principal);
     
 }
@@ -49,19 +49,26 @@
 #cssbuttonstack{
     width: 90%;
     height: 120px;
-    border: 3px solid rgba(129, 129, 129, 0.13);
+    border: 2px solid rgba(129, 129, 129, 0.13);
     display: flex;
     align-items: center;
     gap: 20px;
     border-radius: 30px;
     padding: 30px;
+    color:rgb(221, 221, 221)
+    
     
 
 }
 .buttonstakfrontend{
-
+    /* config button select */
     background-color: rgba(102, 51, 153, 0.171);
+    border: 1px solid rgba(182, 120, 244, 0.171) !important;
+    cursor: pointer;
     
+}
+.buttonstakbackend , .buttonstakferramentas{
+    cursor: pointer;
 }
 #bottomtxt h1{
     margin-bottom: 5px;
@@ -81,7 +88,7 @@
 .iconstakfrontend  svg{
     width: 60%;
     height: 60%;
-    fill: rgb(181, 113, 245);
+    fill: rgb(204, 155, 250);
 }
 .txtstakfrontend{
     width: 50%;
@@ -127,6 +134,10 @@
     text-align: center;
     line-height:80px ;
 }
+.iconstakferramentas svg{
+    width: 50%;
+    height: 50%;
+}
 .txtstakFerramentas{
     width: 50%;
     height: 100%;
@@ -170,6 +181,8 @@ padding: 40px;
     height: 100%;
     fill: rgb(181, 113, 245);
 }
+
+
 .flextxtcardtecnologia{
     width: 100%;
     display: flex;
@@ -194,34 +207,40 @@ padding: 40px;
     height: 100%;
     background: linear-gradient( to bottom right, #8239eb 5% , #bb28d5 );
     border-radius: 20px;
+    transition: width 0.8s ease-in-out;
 }
 .statusCarregamento02{
     width: 90%;
     height: 100%;
     background: linear-gradient( to bottom right, #8239eb 5% , #bb28d5 );;
     border-radius: 20px;
+    transition: width 0.8s ease-in-out;
 }
 .statusCarregamento03{
     width: 85%;
     height: 100%;
     background: linear-gradient( to bottom right, #8239eb 5% , #bb28d5 );
     border-radius: 20px;
+    transition: width 0.8s ease-in-out;
 }
 .statusCarregamento04{
     width: 92%;
     height: 100%;
     background: linear-gradient( to bottom right, #8239eb 5% , #bb28d5 );
     border-radius: 20px;
+    transition: width 0.8s ease-in-out;
 }
 .statusCarregamento05{
     width: 75%;
     height: 100%;
     background: linear-gradient( to bottom right, #8239eb 5% , #bb28d5 );
     border-radius: 20px;
+    transition: width 0.8s ease-in-out;
 }
 .statusCarregamento06{
     width: 98%;
     height: 100%;
     background: linear-gradient( to bottom right, #8239eb 5% , #bb28d5 );
     border-radius: 20px;
+    transition: width 0.8s ease-in-out;
 }
