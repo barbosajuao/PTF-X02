@@ -90,6 +90,10 @@
     height: 60%;
     fill: rgb(204, 155, 250);
 }
+
+#svg02, #svg03{
+    display: none;
+}
 .txtstakfrontend{
     width: 50%;
     height: 100%;
