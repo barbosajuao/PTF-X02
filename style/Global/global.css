@@ -25,3 +25,6 @@
 @import url(/style/import/screen/mobile834px.css);
 @import url(/style/import/screen/mobile800px.css);
 @import url(/style/import/screen/mobile770px.css);
+
+/* pagina demo */
+@import url(/style/import/NavDemo.css);

@@ -1,0 +1,81 @@
+.navDemo{
+    width: 100vw;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.container-conteudo-demo{
+    max-width: 800px;
+    width: 70%;
+    margin: 0 auto;
+}
+.flex-navDemo{
+    max-width: 800px;
+    width: 70%;
+    height: 80px;
+    
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: -50px;
+    gap: 30px;
+    padding-top: 10px;
+   
+
+}
+.flex-voltar{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+    color: rgb(138, 137, 137);
+    font-size: 23px;
+    
+}
+#logoDemo{
+    width: 45px;
+    height: 45px;
+    background: linear-gradient( to bottom right, #8239eb 5% , #bb28d5 );
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #bb28d5 ;
+    font-family: var(--fonte-principal);
+    
+    
+}
+#logoDemo p{
+    
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+#tituloProjeto  {
+    color: rgb(160, 160, 160);
+    font-size: 23px;
+
+}
+
+/* video */
+
+.video{
+
+    width: 60vw;
+    height: 630px;
+    
+    aspect-ratio: 16 / 9; /* Mantém a proporção padrão do YouTube sem cortar nada */
+    margin:0 auto;
+}
+iframe{
+    border-radius: 50px;
+}
+
+/* ...........tituloDescritivo......................... */
+
+#tituloDescritivo{
+    width: 100%;
+    background-color: #bb28d53d;
+}
+
+
