@@ -1,5 +1,15 @@
 @media screen and (max-width: 840px) {
-
+    #projetos{
+       height: 3000px !important;
+    
+        
+    }
+    .padding02{
+       height: 3600px !important;
+       
+    
+        
+    }
    .NavDesktop {
         display: none;
     }

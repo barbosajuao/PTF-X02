@@ -109,6 +109,15 @@ nav{
     flex-direction: column;
     gap: 10px;
 }
+.linkedin p{
+    color: #b0afaf7a;
+    font-family:  sans-serif;
+    font-size: 18px;
+    
+}
+.linkedin a{
+    text-decoration: none;
+}
 
 #social{
     width: 15px;
@@ -116,7 +125,7 @@ nav{
     margin: auto;
     border-radius: 5px;
     /* Define a cor do preenchimento */
-    fill: #e3e3e3; 
+    fill: #b0afaf98; 
     
     /* CONTROLANDO A TRANSPARÊNCIA: 
        Aqui é onde a mágica acontece. 0.3 deixa ele bem clarinho. */
@@ -125,8 +134,18 @@ nav{
     text-align: center;
     cursor: pointer;
 }
+.github:hover #navgithub{
+    fill: #ffffff;
+}
+.linkedin:hover p{
+    color: #ffffff;
+}
+.instagram:hover #navinstagram{
+    fill: #ffffff;
+}
+
 .linkedin p{
-    color: rgba(255, 255, 255, 0.562);
+    color: #b0afaf7a;
     font-family:  sans-serif;
     font-size: 18px;
 }

@@ -6,6 +6,7 @@
         
     
     }
+     
     .descricaocard h1{
         width: 100%;
         font-size: 35px;
@@ -32,6 +33,7 @@
     }
     .carddestaque01 , .carddestaque02{
         width: 55%;
+        height: 700px;
     }
     .padding02{
         height: 2000px;

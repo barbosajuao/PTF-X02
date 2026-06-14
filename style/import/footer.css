@@ -34,13 +34,18 @@ footer{
 #svgfooter{
     width: 20px;
     height: 30px;
-    fill: rgba(255, 255, 255, 0.541);
+    fill: rgba(255, 255, 255, 0.468);
     margin-right: 10px;
+    cursor: pointer;
     
+}
+#svgfooter02{
+    fill: rgba(255, 255, 255, 0.468);
 }
 #svgfooter svg{
     width: 100%;
     height: 100%;
+
 }
 .svgLinkedinfooter h1{
     font-size: 20px;
@@ -48,4 +53,16 @@ footer{
     margin: auto;
     font-weight: 900;
 
+}
+.svgLinkedinfooter a{
+    text-decoration: none;
+}
+.svggithubfooter:hover #svgfooter01{
+    fill: rgb(255, 255, 255);
+}
+.svgemailfooter:hover #svgfooter02{
+    fill: rgb(255, 255, 255);
+}
+.svgLinkedinfooter:hover #linkdinfooter{
+    color: rgb(255, 255, 255) ;
 }

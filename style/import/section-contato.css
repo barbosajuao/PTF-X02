@@ -61,6 +61,13 @@
     border-radius: 30px;
     padding-left: 20px;
 }
+#cssbuttoncontato:hover{
+    background-color: rgba(218, 218, 218, 0.024);
+}
+
+#cssbuttoncontato:hover .svgseta{
+   fill: rgb(13, 255, 4);
+}
 .icongeral{
     width: 12%;
     height: 50%;
@@ -84,13 +91,13 @@
     margin-bottom: 10px;
     color: rgb(116, 116, 116);
 }
-.iconsetascontato{
-    width: 8%;
+.iconsetascontato a{
+    width: 20%;
     height: 30%;
     
     
 }
-.iconsetascontato svg{
+.iconsetascontato a svg{
     width: 100%;
     height: 100%;
     fill: rgb(119, 118, 119);

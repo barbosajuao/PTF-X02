@@ -60,6 +60,16 @@
     
 
 }
+
+/* resolver bug do travamento do hover apos o clik para iniciar o js */
+.buttonstakbackend:hover{
+    background-color: rgba(117, 117, 117, 0.049);
+}
+.buttonstakferramentas:hover{
+    background-color: rgba(117, 117, 117, 0.049);
+}
+
+
 .buttonstakfrontend{
     /* config button select */
     background-color: rgba(102, 51, 153, 0.171);

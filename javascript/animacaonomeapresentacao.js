@@ -44,5 +44,5 @@ export function animacaoapresentacao(){
         // Inicia o efeito assim que a página carregar
     document.addEventListener("DOMContentLoaded", efeitoDigitar);
     
-
+    
 }

@@ -158,7 +158,7 @@ export function animacaoBotaoNav() {
     const secaoHome = document.querySelector(".containerperfil"); // Ajuste o seletor se necessário
     const secaoSobre = document.querySelector("#sobremim");
     const secaoProjetos = document.querySelector("#projetos");
-    const secaoSkills = document.querySelector("#stak");
+    const secaoSkills = document.querySelector(".padding03");
     const secaoContato = document.querySelector("#contato");
     
 
@@ -223,13 +223,13 @@ export function animacaoBotaoNav() {
                 }
 
                 if (elementoAlvo.id === "stak") {
-                    console.log("entrou skill");
+                    
                     botaoSkil.style.backgroundColor = "#1c0f22";
                     botaoSkil.style.border = "1px solid #b762df"; 
                     svgSkill.style.setProperty("fill", "#c580e5", "important");
                 }
                 if (elementoAlvo.id === "contato") {
-                    console.log("entrou contato");
+                    
                     botaoContato.style.backgroundColor = "#1c0f22";
                     botaoContato.style.border = "1px solid #b762df"; 
                     svgContato.style.setProperty("fill", "#c580e5", "important");

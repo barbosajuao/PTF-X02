@@ -275,4 +275,33 @@
     font-weight: 100;
     
 }
+    
+
+
+.box01, .box02, .box03, .box04{
+    transition: transform 0.2s ease;
+}
+
+.box01:hover {
+    
+    transform: scale(1.02); 
+    
+}
+.box02:hover {
+    
+    transform: scale(1.02); 
+    
+}
+.box03:hover {
+   
+    transform: scale(1.02); 
+    
+}
+.box04:hover {
+    
+    transform: scale(1.02); 
+    
+}
+
+
 
