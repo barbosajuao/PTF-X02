@@ -1,16 +1,21 @@
 .navDemo{
     width: 100vw;
-    height: 100px;
+    height: 80px;
     margin-bottom: 50px;
+    margin-top: -100px;
+    background-color: #111016;
+    
 }
 .container-conteudo-demo{
-    max-width: 800px;
-    width: 70%;
+    
+    width: 80%;
     margin: 0 auto;
+    
+    
 }
 .flex-navDemo{
-    max-width: 800px;
-    width: 70%;
+    
+    width: 100%;
     height: 80px;
     
     display: flex;
@@ -19,7 +24,7 @@
     align-items: center;
     margin-top: -50px;
     gap: 30px;
-    padding-top: 10px;
+    
    
 
 }
@@ -61,11 +66,13 @@
 
 .video{
 
-    width: 60vw;
+    width: 100%;
     height: 630px;
     
-    aspect-ratio: 16 / 9; /* Mantém a proporção padrão do YouTube sem cortar nada */
+    
     margin:0 auto;
+    margin-top: 100px;
+    
 }
 iframe{
     border-radius: 50px;
@@ -75,7 +82,215 @@ iframe{
 
 #tituloDescritivo{
     width: 100%;
-    background-color: #bb28d53d;
+    height: 120px;
+    background-color: #17161e;
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    padding: 25px;
+    gap: 30px;
+    
+    
+}
+#titulo01{
+    width: 60%;
+    
+    
+}
+#flexano{
+    
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.flexano01{
+    background-color: #8847e45c;
+    padding: 5px;
+    border-radius: 10px;
+    color: #8847e4;
+    align-items: center;
+}
+.flexano02{
+    color: #8c8c8c8e;
+    padding: 5px;
+    
+    align-items: center;
+}
+.nomeDoProjeto h1{
+    color: rgba(255, 255, 255, 0.764);
+    font-size: 25px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+.subtitlos{
+   
+    padding-top: 10px;
+
+
+}
+.sub01{
+    color: #8c8c8c8e; ;
+    margin-bottom: 10px;
+}
+.sub02{
+    color: rgba(255, 255, 255, 0.758);
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* sobre o projeto */
+
+.flextxtDemo{
+    display: flex;
+    margin-top: 30px;
+}
+.txtProjetoDemo{
+    width: 60%;
+    
+   
+}
+.flextitulotxtDemo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 35px;
+    color: #965fe4;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+.txtdescricao{
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 20px;
+
+
+}
+
+
+.sobreTecnologias{
+    width: 40%;
+    
+    margin-top: 30px;
+}
+.demostak{
+    width: 90%;
+    height: 50%;
+    border: 3px solid rgb(141, 141, 141);
+    border-radius: 20px;
+    background-color: #4e4e4e17;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+.flexsvg{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(139, 139, 139);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tecdemo{
+    width: 26%;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.37);
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #969696;
+}
+
+.flextecnologias{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    margin-top: 50px;
+}
+
+.demoLinks{
+    width: 90%;
+    min-height: 200px;
+    height: 50%;
+    border: 3px solid rgb(141, 141, 141);
+    border-radius: 20px;
+    background-color: #4e4e4e17;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+.flexDemoLinks{
+    display: flex;
+    gap: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(139, 139, 139);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.buttonLinksDemo01, .buttonLinksDemo02{
+    width: 90%;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #cacaca;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+.buttonLinksDemo02{
+    background-color: #8339eb41;
+    border: 1px solid #8339ebfd;
+}
+
+.githubSvgLinks{
+    width: 7%;
+    
+}
+.githubSvgLinks svg{
+    width: 100%;
+    height: 100%;
+    fill: #cacaca;
+    
+    
+}
+.txtDemolinks{
+    width: 70%;
+    
+    
+}
+.svgSetaLinksDemo{
+    
+    align-items: center;
+    margin-top: 10px;
+}
+.svgSetaLinksDemo svg{
+    width: 100%;
+    height: 100%;
+    fill: #cacaca;
+    
+
+}
+.planetaSvgLinks{
+    width: 7%;
+}
+.planetaSvgLinks svg{
+    width: 100%;
+    height: 100%;
+
 }
 
 
