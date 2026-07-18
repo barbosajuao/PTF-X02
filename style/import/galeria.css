@@ -1,0 +1,66 @@
+.navGaleria{
+    width: 100%;
+    height:90px;
+    
+    padding-top: 20px;
+    border-bottom: 1px solid #ffffff58;
+    
+    font-size: 20px;
+}
+.ContainerGaleria{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.flexNaV{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+.IcomVoltar{
+    display: flex;
+    gap: 30px;
+}
+.buttomVoltar{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+}
+.flexlogo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #ffffff;
+}
+.buttomnav{
+    width: 250px;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+}
+.svgzap{
+    width: 55%;
+    height: 40px;
+    background-color: #06730329;
+    border: 1px solid #09780f;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.svgzap svg{
+    width: 30%;
+    height: 60%;
+    fill: #5af361;
+}
+.svgzap p {
+    color: #5af361;
+}
