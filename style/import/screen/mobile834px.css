@@ -1,40 +1,43 @@
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 834px) {
     #projetos{
        height: 3000px !important;
     
         
     }
-    .padding02{
-       height: 3600px !important;
-       
-    
-        
+   
+    #projetos{
+        height: 5600px !important;
     }
+    
    .NavDesktop {
         display: none;
     }
     .NavMobile{
         height:100px;
         width: 100%;
-        background-color: #0a0a0f;
+        
         display: flex;
         padding-left: 45px;
         padding-right: 45px;
-        margin-top: -5px;
+        margin-top: 80px;
     }
     .flexNav{
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: -15px;
+        margin-top: -55px;
     }
     .flexNav .logo{
         margin: 0;
     }
+    .statusapresentacao{
+        margin-top: 1px;
+        
+    }
     .buttonNavMobile{
         width: 50px;
         height: 50px;
-        background-color: #4b4b4b;
+        background-color: #fa0000;
         border-radius: 10px;
         
         
@@ -53,6 +56,7 @@
     }
     .textapresentacao{
         width: 100%;
+        
         
         
     }
@@ -105,6 +109,7 @@
     .padding02{
         margin-top: 800px;
     }
+   
     .flexh1work{
         height: 400px;
         flex-direction: column;
