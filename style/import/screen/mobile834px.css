@@ -1,12 +1,27 @@
 @media screen and (max-width: 834px) {
-    #projetos{
-       height: 3000px !important;
-    
-        
+
+    h2 , h3 {
+        font-size: 70px !important;
+    }
+
+    .titulo-section-sobre{
+        font-size: 30px !important;
+    }
+    .t2{
+        font-size: 70px !important;
+    }
+
+    .flextxtstak{
+        min-width: 800px !important;
+        font-size: 50px !important;
+    }
+    .flextitulostak , .flexTituloContato{
+        font-size:25px;
     }
    
+   
     #projetos{
-        height: 5600px !important;
+        height: 5800px !important;
     }
     
    .NavDesktop {
@@ -31,13 +46,16 @@
         margin: 0;
     }
     .statusapresentacao{
+        width: 300px !important;
+        min-width: 300px !important;
         margin-top: 1px;
+        font-size: 18px !important;
         
     }
     .buttonNavMobile{
         width: 50px;
         height: 50px;
-        background-color: #fa0000;
+        background-color: #1900fa;
         border-radius: 10px;
         
         
@@ -73,7 +91,7 @@
     }
     .cardapresentacao{
         width: 80%;
-        
+        min-width: 700px !important;
         margin: 0 auto;
         margin-top: 250px;
         
@@ -98,6 +116,7 @@
     
     .flex-sobre-mim{
         flex-direction: column;
+        margin-top: 100px;
     }
     .text-sobre-min{
         width: 90%;
@@ -107,7 +126,7 @@
         
     }
     .padding02{
-        margin-top: 800px;
+        margin-top: 1000px;
     }
    
     .flexh1work{
@@ -228,7 +247,7 @@
         margin-top: 10px;
     }
     .contato .container{
-        height: 1000px;
+        height: 1300px;
     }
     footer .container{
         height: 200px;
@@ -260,6 +279,17 @@
     display: block;
     
 }
+
+    .txtsobrecinza{
+        margin-bottom: 500px;
+    }
+
+    #sobremim{
+        min-height: 4000px;
+    }
+    .txtcontatoprimario{
+        margin-bottom: 250px;
+    }
 
 
 
