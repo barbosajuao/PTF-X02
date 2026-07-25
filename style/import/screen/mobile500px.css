@@ -51,11 +51,14 @@
     .titulo-section-sobre{
         margin-top: -50px!important;
     }
-    .padding01 , .padding02, .padding03{
+    .padding01 , .padding02, .padding03, .padding04, .paddingfooter{
         padding: 10px!important;
     }
     .padding02{
         margin-top: 1600px!important;
+    }
+    .padding03{
+        margin-top: 100px!important;
     }
 
     .espacador-sobre-mim{
@@ -129,5 +132,96 @@
     .buttomGaleria{
         width:80%!important;
     }
+    .flextitulostak{
+        font-size:18px;
+    }
+    .flextxtstak{
+        font-size: 35px!important;
+    }
+    .flexbuttonstak{
+        width: 100%!important;
+        
+    }
+    #bottomtxt{
+        
+        font-size: 18px!important;
+    }
+    .iconstakfrontend , .iconstakbackend, .iconstakferramentas{
+        width: 50%;
+    }
+    .tecnologiasstack{
+        width: 100%!important;
+    }
+    #containerstak{
+        height: 1500px!important;
+    }
+    .txtcontatoprimario{
+        margin-bottom: 0px;
+    }
+    .txtcontatoprimario h1{
+        
+        width: 400px!important;
+        font-size: 50px!important;
+    }
+    .txtcontatoprimario p{
+        width: 400px!important;
+        font-style: italic;
+        font-size: 20px!important;
+    }
+    .flexlinkscontato{
+        width: 100%!important;
+        
+    }
+    #cssbuttoncontato{
+        width:100%!important;
+        gap:10px!important;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    #bottomtxtcontato{
+        width: 50%!important;
+        font-size: 15px!important;
+        margin: 0px!important;
+    }
+    .txtcontato{
+        margin: 0px!important;
+    }
+    .disponibilidade p{
+        width: 100%!important;
+        font-size: 18px!important;
+        
+
+
+    }
+    .disponibilidade{
+        width: 100%!important;
+        padding: 20px!important;
+        
+    }
+    .flexdisponibilidade{
+        padding: 0px!important;
+        width: 100%!important;
+    }
+    .flexlogofooter p{
+        font-size: 18px!important;
+    }
+    .flexlogofooter{
+        align-items: center!important;
+    }
+    .flexlogofooter{
+        justify-content: space-around;
+    }
+    #svgfooter{
+        display: none;
+    }
+    .whatts {
+        width: 70px;
+        height: 70px;
+        background-color: #25d366;
+        position: fixed;
+        top: 85%;
+        left: 78%;}
     
 }
