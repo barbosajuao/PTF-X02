@@ -2,7 +2,7 @@
 
     .textapresentacao , .padding01 , .padding02 , .padding03 , .padding04 {
     
-         padding-left: 70px !important;
+         padding-left: 20px !important;
         
     
     }
@@ -10,34 +10,27 @@
         font-size: 80px;
         
     }
-    .textapresentacao h2{
-        margin-top: 150px;
-        margin-bottom: -80px;
-    }
-    .textapresentacao h3{
-        margin-top: 80px;
-    }
+    
 
     .flex-butoon{
         margin-bottom: -30px;
     }
 
-    .statusapresentacao{
-        margin-top: 150px;
-        margin-bottom: -130px;
+    .flex-profile{
+        
+        gap: 0px;
+    
     }
+
+   
     .containercard{
         width: 100%;
         height: 600px;
-        margin-top: 180px;
+        margin-top: 80px;
         padding: 15px;
         
     }
-    .descricaocard{
-        width: 100%;
-        
     
-    }
     .descricaocard h1{
         margin-top: -20px;
     }
@@ -51,10 +44,7 @@
         
     }
     
-    .opentowork{
-        width: 70% !important;
-       
-    }
+    
     .scroll{
         
         margin-top: -60px;

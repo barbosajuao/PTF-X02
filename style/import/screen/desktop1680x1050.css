@@ -25,19 +25,13 @@
 
 
 
-    .containercard{
-         width: 100%;
     
-    }
     .flextecscardgeral{
         
         gap: 5px;
         
     }
-     .opentowork{
-        width: 40% !important;
-        
-    }
+     
 
     .carddestaque01 , .carddestaque02{
         width: 57%;

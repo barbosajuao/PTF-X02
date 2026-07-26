@@ -9,7 +9,7 @@
      
     .descricaocard h1{
         width: 100%;
-        font-size: 35px;
+        font-size: 25px;
         
         
     }
@@ -67,10 +67,7 @@
         margin: 0px !important;
         
     }
-    .opentowork{
-        width: 80% !important;
-       
-    }
+    
     .boxtxt{
         width: 60% !important;
     }

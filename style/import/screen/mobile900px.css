@@ -6,6 +6,7 @@
 
     .titulo-section-sobre{
         font-size: 30px !important;
+        margin-top: 0px;
     }
     .t2{
         font-size: 70px !important;
@@ -28,19 +29,20 @@
         display: none;
     }
     .NavMobile{
-        height:100px;
+        
         width: 100%;
         
         display: flex;
         padding-left: 45px;
         padding-right: 45px;
-        margin-top: 80px;
+        margin-bottom: 50px;
+        
     }
     .flexNav{
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: -55px;
+        
     }
     .flexNav .logo{
         margin: 0;
@@ -83,7 +85,10 @@
         font-size: 25px;
     }
     .containerperfil{
-        margin-top: -1100px;
+       
+       height: 1600px;
+       padding-top: 50px;
+       background-size: cover;
     }
     .flexnumeros{
         width: 100%;
@@ -93,7 +98,7 @@
         width: 80%;
         min-width: 700px !important;
         margin: 0 auto;
-        margin-top: 250px;
+        margin-top: 50px;
         
     }
     .containercard{

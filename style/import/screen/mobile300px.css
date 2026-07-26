@@ -1,0 +1,168 @@
+
+
+@media screen and (max-width: 400px) {
+
+    .padding01 , .padding02{
+        padding-left: 5px!important;
+    }
+    .t2{
+        height: auto;
+        font-size: 40px!important;
+    }
+    #txtsobrecinza{
+        font-size: 20px!important;
+    }
+
+
+
+
+
+
+    
+    .NavMobile {
+        width: 100%;
+        display: flex;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .textapresentacao{
+        padding-left: 5px!important;
+    }
+    .textapresentacao h3{
+        font-size: 45px!important;
+    }
+    .textapresentacao h2{
+        font-size: 45px!important;
+        margin-bottom: 10px;
+    }
+    .cursor{
+        font-size: 20px!important;
+        margin-bottom: 0px!important;
+    }
+    .statusapresentacao{
+        width: 200px!important;
+        min-width: 200px!important;
+        font-size: 18px!important;
+    }
+    .statusapresentacao p{
+        
+        font-size: 12px!important;
+    }
+    #descricaoapresentao{
+        font-size: 20px!important;
+    }
+   
+    .flex-butoon{
+        width: 90%;
+    }
+
+    .flexnumeros{
+        font-size: 12px;
+    }
+    .cardapresentacao{
+        width: 340px!important;
+        min-width: 340px!important;
+        margin-top: 0px!important;
+    }
+    .containercard{
+        width: 340px!important;
+        
+    }
+    #containerperfil{
+        height: 1600px!important;
+    }
+
+    #tec{
+        font-size: 12px!important;
+    }
+    .text-sobre-min{
+        width: 100%;
+    }
+    .padding02 {
+        margin-top: 1700px !important;
+    }
+    .destaque2 {
+        width: 80% !important;
+        
+        margin-top: 80px;
+        
+        
+    }
+
+    .paginaPrincipal{
+        margin-top: 70px;
+    }
+    #animacaolinkdemo{
+        width: 50%;
+    }
+    #projetos {
+        height: 6700px !important;
+    }
+    .txtcontatoprimario h1{
+        font-size: 40px!important;
+    }
+    .txtcontatoprimario p{
+        font-size: 16px!important;
+        width: 330px!important;
+    }
+    .flex-sobre-mim{
+        margin-top: 10px!important;
+        
+    }
+    .text-sobre-min{
+        font-size: 18px!important;
+    }
+    .boxtxt{
+        width: 100%!important;
+        flex-direction: column;
+    }
+    #boxsobre{
+        width: 100%!important;
+    }
+    .padding02 {
+        margin-top: 1500px !important;
+    }
+    .txtdestaque p{
+        font-size: 50px!important;
+    }
+    .txtdestaque {
+        height: auto;
+    }
+    .destaque2{
+        margin-top: 0px!important;
+        height: auto!important;
+    }
+    .flexh1work {
+        height: 250px;
+        gap: 0px;
+    }
+    .imput{
+        width: 100%!important;
+    }
+    .flexatalhos{
+        margin-top: 0px;
+        height: auto!important;
+    }
+    .flexcardworkdestaque{
+        width: 100%;
+    }
+    .txtcarddestaque p{
+        font-size: 20px;
+    }
+    .txtcarddestaque02 p {
+         font-size: 20px;
+    }
+    .linksdemocard01, .linksdemocard02{
+        width: 100%;
+        
+    }
+    .linkdemo01 , .linkdemo02 {
+        font-size: 16px;
+    }
+    #animacaocodigo{
+        font-size: 16px;
+    }
+}
