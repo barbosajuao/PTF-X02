@@ -1,8 +1,8 @@
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 590px) {
 
-    .padding01 , .padding02{
+    .padding01 , .padding02, .padding03, .padding04{
         padding-left: 5px!important;
     }
     .t2{
@@ -73,6 +73,10 @@
     }
     #containerperfil{
         height: 1600px!important;
+        padding-top: 0px!important;
+    }
+    .containerperfil{
+        padding-top: 15px!important;
     }
 
     #tec{
@@ -164,5 +168,91 @@
     }
     #animacaocodigo{
         font-size: 16px;
+    }
+    .txtcarddestaquegeral p{
+        font-size: 20px!important;
+    }
+    .flexcardworkgeral{
+        width: 100%!important;
+    }
+    .totalcards{
+        width: 100%;
+    }
+    #projetos{
+        height: auto!important;
+    }
+    .buttomGaleria{
+        width: 70%!important;
+    }
+
+    .padding03{
+        margin-top: 0px!important;
+    }
+    .flextxtstak{
+        font-size: 30px!important;
+    }
+    .flextitulostak{
+        font-size: 12px;
+    }
+    .flexstakconteudo, .flexbuttonstak{
+        width: 100%;
+        
+    }
+    #cssbuttonstack{
+        font-size: 18px!important;
+    }
+    #bottomtxt{
+        width: 20%;
+        font-size: 16px!important;
+    }
+    .tecnologiasstack{
+        width: 100%;
+    }
+    .container {
+        
+        height: 1400px;
+        
+    }
+    .flexTituloContato {
+        font-size: 12px;
+    }
+    .txtcontatoprimario{
+        height: auto;
+        margin-bottom: 0px;
+    }
+    .flexlinkscontato{
+        margin-top: 50px;
+    }
+    .flexlinkscontato{
+        width: 100%;
+    }
+    #bottomtxtcontato{
+        width: 60%!important;
+        margin: 0px!important;
+        font-size: 16px!important;
+    }
+    #cssbuttoncontato{
+        justify-content: space-around;
+        gap: 0px;
+    }
+    .disponibilidade{
+        width: 100%;
+        padding: 20px!important;
+    }
+    #svgfooter{
+        display: none;
+    }
+    .paddingfooter{
+        width: 100%;
+        padding: 0px!important;
+    }
+    .flexlogofooter{
+        width: 100%;
+        align-items: center;
+        font-size: 20px;
+    }
+    .whatts{
+        top: 90%;
+        left: 75%;
     }
 }
