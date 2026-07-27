@@ -334,6 +334,9 @@
         justify-content: space-around;
     }
 
+    .containerperfil{
+        background-image: url(/img/corretofundomobili.png);
+    }
 
 
 }

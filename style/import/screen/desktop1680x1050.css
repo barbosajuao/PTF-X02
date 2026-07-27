@@ -1,69 +1,53 @@
-@media screen and (max-width: 1690px) {
+@media screen and (max-width: 1300px) {
 
-    .textapresentacao , .padding01 , .padding02 , .padding03 , .padding04 {
-    
-         padding-left: 150px;
-    
+    .padding01, .padding02, .padding03, .padding04{
+        padding-left: 50px;
     }
-    
     .textapresentacao{
-        width: 65%;
-        
+        width: 100%;
+        max-width: 600px;
     }
-    .textapresentacao #descricaoapresentao{
+    .textapresentacao h3{
+        font-size: 70px;
+    }
+    #descricaoapresentao{
+        width: 100%!important;
+    }
+    .flex-butoon{
         width: 90%;
     }
-    #boxsobre p{
-       margin-top: 50px;
+
+    .scroll{
+        display: none;
     }
-
-
-
-
-
-
-
-
-
-    
-    .flextecscardgeral{
-        
-        gap: 5px;
-        
+    .titulo-section-sobre{
+        margin-top: 20px;
     }
-     
-
-    .carddestaque01 , .carddestaque02{
-        width: 57%;
-        height: 700px;
-        background-color: #111118;
-        border-radius: 30px;
-        border: 3px solid #838285;
-    
-    
+    .t2{
+        font-size: 50px;
     }
-    .flexcardworkgeral{
-        width: 90% !important;
-        justify-content: center;
+    .txtdestaque{
+        font-size: 70px;
     }
-    .totalcards{
-        width: 350px;
-
+    .destaque2{
+        line-height: normal;
     }
-
     .flexbuttonstak{
         width: 50%;
-        
     }
+    .flexatalhos{
+        height: auto;
+    }
+    #bottomtxtcontato{
+        width: 60%;
+        margin: 0px!important;
+        font-size: 18px!important;
+    }
+
     #cssbuttoncontato{
-        width: 45%;
-        
+        justify-content: space-between;
+        gap: 5px;
     }
-    .disponibilidade{
-        width: 92%;
-    }
-
-
 
 
 

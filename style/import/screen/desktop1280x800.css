@@ -1,77 +1,56 @@
-@media screen and (max-width:1280px){
+@media screen and (max-width:1200px){
 
-    .textapresentacao , .padding01 , .padding02 , .padding03 , .padding04 {
+   .textapresentacao{
+    width: 100%;
+    max-width: 500px!important;
+   }
+   #descricaoapresentao{
+    width: 100%;
+    font-size: 20px!important;
+   }
+   .flex-butoon{
+    width: 90%;
+   }
+   .containerperfil{
+    height: 850px;
+   }
+   .scroll{
+    display: none;
+   }
+   .t2{
+    font-size: 50px;
+   }
+   .flex-sobre-mim{
+    gap: 10px;
+   }
+   .txtdestaque{
+    font-size: 50px;
+   }
+   .destaque2{
+    line-height: normal;
+   }
+   .flexstakconteudo{
+    width: 90%!important;
     
-         padding-left: 40px !important;
-        
+   }
+   .flexbuttonstak{
+    width: 60%;
+   }
+   #cssbuttoncontato{
+    width: 45%;
+    justify-content: space-between;
+    gap: 5px;
     
-    }
-     
-    .descricaocard h1{
-        width: 100%;
-        font-size: 25px;
-        
-        
-    }
-    .titulo-section-sobre{
-        margin-top: 100px;
-        
-    }
-    .text-sobre-min{
-        margin-top: 10px;
-    }
-    .boxtxt{
-        width: 80%;
-    }
-    #txtsobrecinza{
-        font-size: 45px;
-    }
-    #tec{
-        font-size: 12px;
-    }
-    .buttonapresentacao1 , .buttonapresentacao2{
-        font-size: 20px;
-    }
-    .carddestaque01 , .carddestaque02{
-        width: 55%;
-        height: 700px;
-    }
-    
-    #ultimocard{
-        display: none;
-    }
-    .flexbuttonstak{
-        width: 45%;
-    }
-    .flexstakconteudo{
-        width: 98%;
-        gap: 0px;
-    }
-    .tecnologiasstack{
-        width: 50%;
-    }
-    #bottomtxtcontato{
-        font-size: 20px;
-    }
-    .txtcontato{
-        width: 50%;
-        
-        
-    }
-    .txtgithub{
-        width: 25%;
-    }
-    .txtwhatsapp{
-        width: 65%;
-        
-        margin: 0px !important;
-        
-    }
-    
-    .boxtxt{
-        width: 60% !important;
-    }
+   }
+   #bottomtxtcontato{
+    width: 50%;
+    font-size: 16px!important;
+    margin: 0px!important;
+   }
 
+   .disponibilidade{
+    padding: 15px;
+   }
 
 
 
