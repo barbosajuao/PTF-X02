@@ -18,7 +18,7 @@
 
     .flex-profile{
         
-        gap: 0px;
+        gap: 30px;
     
     }
 
@@ -44,7 +44,9 @@
         
     }
     
-    
+    #boxsobre p {
+        margin-top: 50px!important;
+    }
     .scroll{
         
         margin-top: -60px;
@@ -84,7 +86,7 @@
 
     
 
-    /* tela apresentacao acima */
+    
     
     
 

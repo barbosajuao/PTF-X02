@@ -187,6 +187,11 @@
 .cardapresentacao{
     width: 40%;
 }
+.flex-profile{
+        
+    gap: 200px;
+    
+}
 .containercard{
     width: 100%;
     max-width: 410px;

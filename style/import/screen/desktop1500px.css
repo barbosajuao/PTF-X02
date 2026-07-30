@@ -1,0 +1,23 @@
+@media screen and (max-width: 1590px) {
+
+    .textapresentacao{
+        width: 100%;
+        max-width: 700px;
+        
+    }
+    #descricaoapresentao{
+        width: 100%!important;
+    }
+    #boxsobre p {
+        margin-top: 50px!important;
+    }
+    #bottomtxtcontato{
+        margin: 0px!important;
+        font-size: 20px!important;
+        width: 50%;
+    }
+    #cssbuttoncontato{
+        justify-content: space-between;
+    }
+    
+}
