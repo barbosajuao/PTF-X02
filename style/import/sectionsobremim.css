@@ -26,7 +26,7 @@
 .espacador-sobre-mim{
     width: 100px;
     height: 2px;
-    background-color: rgb(181, 113, 245);
+    
 }
 .t2{
     width: 100%;
@@ -87,7 +87,7 @@
 
 }
 #statusatual{
-    background-color: #ad8fff;
+    background-color: var(--cor-titulo);
 }
 .traco{
     width: 1px;
@@ -111,7 +111,7 @@
     border-radius: 20px;
     text-align: center;
     background-color: #1e1732;
-    color:#9d79ff ;
+    color:var(--cor-titulo) ;
     font-size: 20px;
     line-height: 30px;
 }

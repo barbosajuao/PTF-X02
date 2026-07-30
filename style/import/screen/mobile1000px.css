@@ -57,8 +57,8 @@
     .buttonNavMobile{
         width: 50px;
         height: 50px;
-        background-color: #1900fa;
         border-radius: 10px;
+        
         
         
     }
@@ -336,6 +336,95 @@
 
     .containerperfil{
         background-image: url(/img/Design\ sem\ nome.svg);
+    }
+
+
+
+
+     /* navmobili */
+
+    .NavMobile{
+        
+        position: fixed;
+        
+        width: 90%;
+        height: auto!important;
+        padding: 5px;
+        margin-left: 3%;
+        border-radius: 10px;
+        display: flex;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 50px;
+        background: #151124d6;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        border: 1px solid #614ea576;
+        position: fixed;
+        z-index: 1;
+        
+        
+    }
+        
+    .flex-profile{
+        padding-top: 80px;
+    }
+
+    
+
+    .fleNavMoboli{
+        width: 90%;
+        height: 100%;
+        max-height: 350px;
+        margin-left: 2.5%;
+        margin-top: 70px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        border-radius: 20px;
+        padding: 10px;
+
+        background: #151124db;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        border: 1px solid #614ea576;
+        position: fixed;
+        z-index: 1;
+        display: none;
+    }
+
+    .buttomNavMobile{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: rgba(209, 208, 208, 0.733);
+        
+    }
+    a{
+        text-decoration: none;
+    }
+
+    #menumobile{
+        width: 70%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    #menumobile svg{
+        width: 100%;
+        height: 100%;
+    }
+
+    #closemibile{
+        width: 70%;
+        height: 100%;
+        border-radius: 10px;
+        display: none;
+    }
+    #closemibile svg{
+        width: 100%;
+        height: 100%;
     }
 
 

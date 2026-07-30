@@ -15,3 +15,6 @@ AnimacaoTecnologias();
 
 import {animacaoapresentacao} from "./animacaonomeapresentacao.js";
 animacaoapresentacao();
+
+import {animacaoBotaoNavMobile} from "./animacaonavmobile.js";
+animacaoBotaoNavMobile();

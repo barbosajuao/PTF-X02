@@ -16,3 +16,12 @@ body{
 html {
     scroll-behavior: smooth; /* Comportamento do scroll: suave */
 }
+
+
+ .titulo-section-sobre, .titulo-work, .flextitulostak, .flexTituloContato{
+        color:var(--cor-titulo);
+    }
+    .espacador-sobre-mim, .espacador-work , .espacador, .divisor{
+        background-color: var(--cor-titulo);
+    }
+

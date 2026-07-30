@@ -2,6 +2,9 @@
 .NavMobile , .selectNavMobile{
     display: none;
 }
+.fleNavMoboli{
+    display: none;
+}
 
 
 .NavDesktop{

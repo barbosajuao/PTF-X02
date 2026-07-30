@@ -23,11 +23,9 @@
 @import url(/style/import/screen/desktop1500px.css);
 
 /* mobile */
-@import url(/style/import/screen/mobile900px.css);
-@import url(/style/import/screen/mobile800px.css);
-@import url(/style/import/screen/mobile770px.css);
-@import url(/style/import/screen/mobile400px.css);
-@import url(/style/import/screen/mobile500px.css);
+@import url(/style/import/screen/mobile1000px.css);
+@import url(/style/import/screen/mobile590px.css);
+
 
 /* pagina demo */
 @import url(/style/import/NavDemo.css);
