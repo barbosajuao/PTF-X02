@@ -21,7 +21,7 @@
 .espacador-work{
     width: 15%;
     height: 2px;
-    background-color: rgb(82, 56, 107);
+    background-color: var(--cor-titulo);
 }
 .flexh1work{
     width: 100%;
