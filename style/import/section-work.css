@@ -406,6 +406,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.containerbuttomgaleria{
+    width: 80%;
+}
 .buttomGaleria{
     width:20%;
     height:50px;

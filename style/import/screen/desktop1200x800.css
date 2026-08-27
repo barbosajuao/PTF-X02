@@ -1,0 +1,123 @@
+ @media screen and (max-width:1200px){
+
+   .textapresentacao{
+    width: 100%;
+    max-width: 500px!important;
+    
+   }
+   h3{
+    font-size: 60px!important;
+   }
+   #descricaoapresentao{
+    width: 100%;
+    font-size: 20px!important;
+   }
+   .flex-butoon{
+    width: 90%;
+   }
+   .containerperfil{
+    height: 850px;
+   }
+   .scroll{
+    display: none;
+   }
+   .t2{
+    font-size: 50px;
+   }
+   .flex-sobre-mim{
+    gap: 10px;
+   }
+   .txtdestaque{
+    font-size: 50px;
+   }
+   .destaque2{
+    line-height: normal;
+   }
+   .flexstakconteudo{
+    width: 90%!important;
+    
+   }
+   .flexbuttonstak{
+    width: 60%;
+   }
+   #cssbuttoncontato{
+    width: 45%;
+    justify-content: space-between;
+    gap: 5px;
+    
+   }
+   #bottomtxtcontato{
+    width: 50%;
+    font-size: 16px!important;
+    margin: 0px!important;
+   }
+
+   .disponibilidade{
+    padding: 15px;
+   }
+
+   .descricaocard p{
+    font-size: 16px!important;
+   }
+   .opentowork{
+    width:40%;
+   }
+   .containerperfil{
+    height: 700px;
+   }
+  
+   .titulo-section-sobre{
+    margin-top: 0px;
+   }
+
+   #txtsobrecinza{
+    font-size: 36px!important;
+    margin-top: 10px;
+   }
+   .text-sobre-min{
+    font-size: 21px!important;
+    width: 100%;
+   }
+   .flex-sobre-mim{
+    gap: 20px;
+   }
+   #boxsobre {
+    width: 45%;
+   }
+   #boxsobre p{
+    font-size: 18px!important;
+   }
+   #destaquegreem{
+    font-size: 50px!important;
+   }
+   .flexcardworkdestaque{
+    width: 95%;
+   }
+   .flexstakconteudo{
+    width: 100%!important;
+   }
+   #bottomtxt{
+    font-size: 20px!important;
+   }
+   .disponibilidade{
+    width: 94%;
+   }
+   .social{
+    margin-top: 0px;
+   }
+   .navegacao{
+    margin-bottom: 100px!important;
+   }
+   #bottomtxtcontato{
+    width: auto!important;
+   }
+
+
+
+
+
+
+
+
+
+} 

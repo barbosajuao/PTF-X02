@@ -63,11 +63,12 @@
     .statusapresentacao{
         width: 200px!important;
         min-width: 200px!important;
+        margin: 0 auto;
         
     }
     .statusapresentacao p{
         
-        font-size: 16px!important;
+        font-size: 12px!important;
     }
     #descricaoapresentao{
         font-size: 20px!important;
@@ -117,7 +118,8 @@
         width: 50px;
     }
     .text-sobre-min{
-        width: 100%;
+        width: 99%;
+        margin-top: 30px;
     }
     .padding02 {
         margin-top: 1700px !important;
@@ -154,7 +156,7 @@
         font-size: 18px!important;
     }
     .boxtxt{
-        width: 100%!important;
+        width: 99%!important;
         flex-direction: column;
     }
     #boxsobre{
@@ -185,7 +187,7 @@
         height: auto!important;
     }
     .flexcardworkdestaque{
-        width: 100%;
+        width: 99%;
     }
     .txtcarddestaque p{
         font-size: 20px;
@@ -229,7 +231,7 @@
         font-size: 12px;
     }
     .flexstakconteudo, .flexbuttonstak{
-        width: 100%;
+        width: 100%!important;
         
     }
     #cssbuttonstack{
@@ -268,6 +270,9 @@
     #cssbuttoncontato{
         justify-content: space-around;
         gap: 0px;
+    }
+    #contato{
+        height: 1200px;
     }
     .disponibilidade{
         width: 100%;

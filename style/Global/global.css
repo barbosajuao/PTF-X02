@@ -17,10 +17,10 @@
 
 
 /* midia queries */
-@import url(/style/import/screen/desktop1680x1050.css);
-@import url(/style/import/screen/notebook1440x900.css);
-@import url(/style/import/screen/desktop1280x800.css);
-@import url(/style/import/screen/desktop1500px.css);
+@import url(/style/import/screen/desktop1200x800.css);
+@import url(/style/import/screen/desktop1300x1050.css);
+@import url(/style/import/screen/desktop1590px.css);
+@import url(/style/import/screen/desktop1600x900.css);
 
 /* mobile */
 @import url(/style/import/screen/mobile1000px.css);
