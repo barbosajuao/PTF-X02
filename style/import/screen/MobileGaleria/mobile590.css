@@ -1,0 +1,59 @@
+
+@media screen and (max-width: 590px){
+    .flexlogo p{
+        display: none;
+    }
+    .buttomnav p{
+        display: none;
+    }
+    .buttomnav{
+        width: 80px!important;
+    }
+    
+    .svgzap{
+        
+        max-width: 80px!important;
+        gap:0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttomVoltar p {
+        display: none;
+    }
+
+    .IcomVoltar{
+        gap: 10px!important;
+    }
+
+    .flexNaV{
+        width: 98%!important;
+        justify-content: space-between!important;
+    }
+
+    .flextitulogaleria h2{
+        font-size:50px!important;
+    }
+    .flextitulogaleria {
+        margin-top: 50px!important;
+    }
+
+    .titulocolorgaleria{
+        width: 100%!important;
+        text-align: center!important;
+    }
+    .titulocolorgaleria h1{
+        font-size: 50px!important;
+        margin: auto;
+    }
+    input{
+        font-size: 16px!important;
+    }
+    .flexatalhos{
+        width: 100%!important;
+        justify-content:space-around;
+    }
+    #mobilecards{
+        width: 98%!important;
+    }
+}

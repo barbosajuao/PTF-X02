@@ -26,6 +26,10 @@
 @import url(/style/import/screen/mobile1000px.css);
 @import url(/style/import/screen/mobile590px.css);
 
+/*mobile galeria */
+@import url(/style/import/screen/MobileGaleria/mobile590.css);
+@import url(/style/import/screen/MobileGaleria/mobilegaleria1000px.css);
+
 
 /* pagina demo */
 @import url(/style/import/NavDemo.css);
