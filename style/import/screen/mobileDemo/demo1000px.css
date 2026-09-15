@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 590px){
+@media screen and (max-width: 1000px){
     .navDemo{
         position: fixed;
         width:100%;
@@ -32,7 +32,7 @@
 
     }
     .flex-voltar{
-        width: 15%!important;
+        width: 20%;
         gap: 5px;
         font-size: 20px;
         color: white;
@@ -41,7 +41,7 @@
     #logoDemo{
         width: 11%;
         height: 80%;
-        margin-right: 50px!important;
+        margin-right: 30%;
         align-items: center;
         text-align: center;
 
@@ -56,7 +56,7 @@
 
     .video{
         width: 100%;
-        height:350px!important;
+        height:550px;
         margin-bottom: 20px;
     }
 
@@ -95,9 +95,10 @@
        
     }
     .imgfuncionalidades{
-        width: 100%!important;
-        height: 500px!important;
+        width: 100%;
+        height: 550px;
         background-size: contain;
+        
         
     }
     .flexdivisorfuncionalidade ,.flexdesafios{
@@ -111,8 +112,8 @@
         width: 95%;
     }
     .imgavatar{
-        width: 100%!important;
-        height: 450px;
+        width: 100%;
+        height: 550px;
         background-size: contain;
     }
     .cardchamada{
@@ -122,9 +123,10 @@
         margin-bottom: 20px;
     }
     .status{
-        width: 100%!important;
+        width: 50%;
         font-size: 12px;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .cardchamada  h1{
         font-size: 25px!important;
@@ -173,14 +175,15 @@
         width: 70px;
         height: 40px;
     }
+
     .svgcheck {
-        width: 20%!important;
-        height: 40%!important;
+        width: 10%;
+        height: 60%;
         background-color: #8339eb38;
         border-radius: 50%;
         margin-top: -5%;
         text-align: center;
         align-items: center;
-        line-height: 55px!important;
+        line-height: 75px;
     }
 }
