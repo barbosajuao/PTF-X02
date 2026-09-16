@@ -1,9 +1,28 @@
+
+
 .navDemo{
-    width: 100vw;
-    height: 80px;
-    margin-bottom: 50px;
+
+    width: 100%;
+    height: 70px;
+        
     margin-top: -100px;
-    background-color: #111016;
+        
+    position: fixed;
+        
+    
+}
+#containerNavDemo{
+    width: 90%;
+    height: 80px;
+    background: #15112459;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid #614ea576;
+    border-radius: 20px;
+    
+    margin: 0 auto;
+    
+    
     
 }
 .container-conteudo-demo{
@@ -22,20 +41,20 @@
     flex-direction: row;
     margin: 0 auto;
     align-items: center;
-    margin-top: -50px;
+    
     gap: 30px;
     
    
 
 }
 .flex-voltar{
-    width: 15%;
+    width: 100%;
     height: 100%;
     display: flex;
     
     align-items: center;
     gap: 10px;
-    color: rgb(138, 137, 137);
+    color: rgb(255, 253, 253);
     font-size: 23px;
     
 }
@@ -46,6 +65,7 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px #bb28d5 ;
     font-family: var(--fonte-principal);
+    margin-right: 200px;
     
     
 }
@@ -57,22 +77,21 @@
     line-height: 50px;
 }
 #tituloProjeto  {
-    color: rgb(160, 160, 160);
+    color: rgb(253, 249, 249);
     font-size: 23px;
 
 }
 
-/* video */
 
 .video{
+    margin-top: 130px;
+}
 
-    width: 100%;
-    height: 630px;
-    
-    
-    margin:0 auto;
-    margin-top: 100px;
-    
+
+.video iframe {
+    width: 95%;
+    aspect-ratio: 16 / 9;
+    border: none;
 }
 iframe{
     border-radius: 50px;
@@ -299,6 +318,11 @@ iframe{
 
 /* funcionalidades */
 
+.Funcionalidades{
+    width: 100%;
+    margin-top: 150px;
+}
+
 .flexdivisorfuncionalidade{
     width: 50%;
     height: 30px;
@@ -359,14 +383,7 @@ iframe{
 
 
 
-.imgfuncionalidades{
-    width: 40%;
-    height: 600px;
-    background-image: url(/img/yellow-hoodie-man-3d-illustration.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 50px;
-}
+
 
 
 /* desafios tecnicos */
@@ -445,14 +462,7 @@ iframe{
 .imgseparacao{
     margin-top: 100px;
 }
-.imgavatar{
-    width: 30%;
-    height: 500px;
-    background-image: url(/img/unique-male-3d-character-3d-illustrations.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-}
+ 
 
 /* section chamada */
 
@@ -468,18 +478,19 @@ iframe{
     text-align: center;
 }
 .status{
-    width: 30%;
+    width: 50%;
     height: 40px;
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     border: 1px solid green;
     border-radius: 20px;
     padding-left: 20px;
     color: rgb(130, 202, 130);
     background-color: rgba(52, 94, 52, 0.5);
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--fonte-principal);
     font-weight: bold;
     margin-bottom: 30px;
@@ -487,7 +498,7 @@ iframe{
 }
 .cardchamada h1{
     color: white;
-    font-size: 55px;
+    font-size: 40px;
     font-weight: bold;
     font-family: var(--fonte-principal);
     margin-bottom: 20px;
@@ -501,7 +512,7 @@ iframe{
 }
 
 .buttonchamadaflex{
-    width: 80%;
+    width: 100%;
     
     margin: auto;
     display: flex;
@@ -509,6 +520,7 @@ iframe{
     
 
 }
+
 .buttomzap{
     width: 30%;
     height: 50px;
@@ -521,6 +533,14 @@ iframe{
     display: flex;
     padding-left: 10px;
     cursor: pointer;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.svgzapdemo{
+    width: 50%;
+    height: 100%;
+    
 }
 
 .buttomzap svg{
@@ -535,10 +555,10 @@ iframe{
     
     border-radius: 30px;
     color: rgba(255, 255, 255, 0.554);
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     align-items: center;
-    padding-left: 60px;
+    justify-content: center;
     gap: 15px;
     cursor: pointer;
 }
@@ -553,10 +573,10 @@ iframe{
     
     border-radius: 30px;
     color: rgba(255, 255, 255, 0.554);
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     align-items: center;
-    padding-left: 80px;
+    justify-content: center;
     gap: 15px;
     cursor: pointer;
 }
@@ -582,61 +602,33 @@ iframe{
     margin-top: 80px;
 }
 
-/* keyframe */
+.imgfuncionalidades{
+    overflow: hidden;
+}
 
-@media screen and (max-width: 1400px) {
-    .flextxtDemo{
-
-        height: 1000px;
-        display: flex;
-        margin-top: 30px;
-    
-    
-    }
-
-    .demoLinks{
-       
-        height: 40%;
+ .imgavatar{
+        width: 100%!;
+        height: 400px;
         
-    }   
-    .demostak{
-         height: 40%;
+        
     }
-    .txtfuncionalidade{
-        width: 70%;
-    
-    }
+
+    .imgavatar img{
+        width: 30%;
+        height: 400px;
+        display: block;
+        margin:  auto;
+    } 
+
     .imgfuncionalidades{
         width: 40%;
-        height: 550px;
-        background-image: url(/img/yellow-hoodie-man-3d-illustration.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 50px;
-    }
-    .cardfuncionalidade{
-        width: 49%;
-        height: 150px;
-        border: 1px solid #8339eb49 ;
-        border-radius: 30px;
-        padding: 20px;
-        display: flex;
-        gap: 10px;
-        color: rgba(255, 255, 255, 0.582);
-        font-size: 19px;
-        font-family: var(--fonte-principal);
-        align-items: center;
-    }
-    .svgcheck{
-        width: 60px;
-        height: 30px;
-        background-color: #8339eb38;
-        border-radius: 50%;
-        margin-top: -20%;
-        text-align: center;
-        align-items: center;
-        line-height: 45px;
+        height: auto;
+    } 
+
+    .imgfuncionalidades img{
+        width: 100%;
+        height: 450px;
+        display: block;
+        margin:  auto;
     }
 
-
-}

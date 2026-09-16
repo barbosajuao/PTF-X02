@@ -1,0 +1,74 @@
+@media screen and (max-width: 1200px){
+
+
+    
+    .tecdemo{
+        width: 40%!important;
+    }
+
+    .Funcionalidades{
+        margin-top: 300px;
+    }
+    .txtfuncionalidade{
+        width: 100%;
+    }
+
+    .container-conteudo-demo{
+        margin-top: 50px;
+    }
+    
+    
+    .cardfuncionalidade{
+        width: 49%;
+        height: 150px;
+        border: 1px solid #8339eb49 ;
+        border-radius: 30px;
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+        color: rgba(255, 255, 255, 0.582);
+        font-size: 19px;
+        font-family: var(--fonte-principal);
+        align-items: center;
+    }
+    .svgcheck{
+        width: 60px;
+        height: 30px;
+        background-color: #8339eb38;
+        border-radius: 50%;
+        margin-top: -20%;
+        text-align: center;
+        align-items: center;
+        line-height: 45px;
+    }
+
+    .imgavatar{
+        width: 100%!;
+        height: 400px;
+        
+        
+    }
+
+    .imgavatar img{
+        width: 50%;
+        height: 400px;
+        display: block;
+        margin:  auto;
+    } 
+
+    .imgfuncionalidades{
+        width: 60%;
+        height: auto;
+    } 
+
+    .imgfuncionalidades img{
+        width: 100%;
+        height: 450px;
+        display: block;
+        margin:  auto;
+    }
+
+
+
+
+}

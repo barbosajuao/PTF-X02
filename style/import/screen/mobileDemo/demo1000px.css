@@ -1,47 +1,24 @@
 
 @media screen and (max-width: 1000px){
-    .navDemo{
-        position: fixed;
-        width:100%;
-        height:50px;
-        /* background-color: rgb(255, 0, 0);  arrumar a coir de fundo*/
-        
-        
-       
-        
-    }
+    
     .container-conteudo-demo{
         width: 98%;
         
+        
          
     }
-    .flex-navDemo{
-        width: 100%;
-        height: 50px;
-       
-        margin: 0 auto;
-        border-radius: 20px;
-        margin-top: 10px;
-        gap: 10px;
-        background: #15112459;
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(5px);
-        border: 1px solid #614ea576;
-        
-
-
-    }
     .flex-voltar{
-        width: 20%;
-        gap: 5px;
-        font-size: 20px;
+        width: 100%!important;
+        gap: 1px;
+        font-size: 16px;
         color: white;
         font-weight: bold;
     }
+   
     #logoDemo{
         width: 11%;
-        height: 80%;
-        margin-right: 30%;
+        height: auto;
+        margin-right: 0%;
         align-items: center;
         text-align: center;
 
@@ -54,10 +31,10 @@
         font-size: 30px;
     }
 
-    .video{
+    .video iframe {
         width: 100%;
-        height:550px;
-        margin-bottom: 20px;
+        aspect-ratio: 16 / 9;
+        border: none;
     }
 
     #tituloDescritivo{
@@ -94,13 +71,10 @@
         margin: 0 auto;
        
     }
-    .imgfuncionalidades{
-        width: 100%;
-        height: 550px;
-        background-size: contain;
-        
-        
+    .Funcionalidades{
+        margin-top: 0px!important;
     }
+    
     .flexdivisorfuncionalidade ,.flexdesafios{
         width: 100%;
     }
@@ -111,11 +85,7 @@
     .txtaprendizado{
         width: 95%;
     }
-    .imgavatar{
-        width: 100%;
-        height: 550px;
-        background-size: contain;
-    }
+    
     .cardchamada{
         width: 95%;
         height: auto;
@@ -139,25 +109,27 @@
         gap: 10px;
         
     }
-    .buttomEmail{
-        display: none;
-    }
-    .buttomzap, .buttomGitHUb{
+    
+    .buttomzap, .buttomEmail{
         width: 50%;
         font-size: 10px;
-        align-items: center;
+        
+        line-height: 0px!important;
     }
     .buttomGitHUb{
+        display: none;
         padding: 0px!important;
     }
-    .buttomzap p , .buttomGitHUb p{
+    .buttomzap p  {
         display: none;
         
     }
-    .svgzap {
-       
-        margin: auto;
-    }
+
+    
+
+    
+    
+    
     .svgGitihubChamada{
         
         width: 100%!important;
@@ -177,13 +149,39 @@
     }
 
     .svgcheck {
-        width: 10%;
-        height: 60%;
+        width: 100px!important;
+        height: 40%!important;
         background-color: #8339eb38;
         border-radius: 50%;
         margin-top: -5%;
         text-align: center;
         align-items: center;
-        line-height: 75px;
+        line-height: 55px!important;
     }
+    .imgavatar{
+        width: 100%!important;
+        height: 400px;
+        
+        
+    }
+
+    .imgavatar img{
+        width: 50%;
+        height: 400px;
+        display: block;
+        margin:  auto;
+    }  
+
+
+    .imgfuncionalidades{
+        width: 100%!important;
+        height: 350px!important;
+    } 
+
+    #imgfuncionalidades{
+        width: 60%;
+        height: 400px!important;
+        display: block;
+        margin:  auto;
+    } 
 }

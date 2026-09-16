@@ -1,47 +1,25 @@
 
 @media screen and (max-width: 590px){
-    .navDemo{
-        position: fixed;
-        width:100%;
-        height:50px;
-        /* background-color: rgb(255, 0, 0);  arrumar a coir de fundo*/
-        
-        
-       
-        
-    }
     .container-conteudo-demo{
         width: 98%;
         
+        
          
     }
-    .flex-navDemo{
-        width: 100%;
-        height: 50px;
-       
-        margin: 0 auto;
-        border-radius: 20px;
-        margin-top: 10px;
-        gap: 10px;
-        background: #15112459;
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(5px);
-        border: 1px solid #614ea576;
-        
-
-
-    }
     .flex-voltar{
-        width: 15%!important;
-        gap: 5px;
-        font-size: 20px;
+        width: 25%!important;
+        gap: 1px;
+        font-size: 16px;
         color: white;
         font-weight: bold;
     }
+    #tituloProjeto{
+        font-size: 15px;
+    }
     #logoDemo{
         width: 11%;
-        height: 80%;
-        margin-right: 50px!important;
+        height: auto;
+        margin-right: 0%;
         align-items: center;
         text-align: center;
 
@@ -51,13 +29,13 @@
         font-size: 18px;
     }
     .flextitulotxtDemo{
-        font-size: 30px;
+        font-size: 10px;
     }
 
-    .video{
-        width: 100%;
-        height:350px!important;
-        margin-bottom: 20px;
+    .video iframe {
+        width: 95%;
+        aspect-ratio: 16 / 9;
+        border: none;
     }
 
     #tituloDescritivo{
@@ -72,7 +50,7 @@
         flex-direction: column;
     }
     .txtProjetoDemo , .sobreTecnologias{
-        width: 95%;
+        width: 100% !important;
         
         
     }
@@ -80,7 +58,14 @@
         width: 40%;
     }
     .txtdescricao{
+        width: 100%!important;
         font-size: 21px;
+        text-align: left;
+        padding: 10px;
+        
+    }
+    .Funcionalidades{
+        margin-top: 0px!important;
     }
     .flexdivisorfuncionalidade{
         margin-top: 40px;
@@ -94,27 +79,23 @@
         margin: 0 auto;
        
     }
-    .imgfuncionalidades{
-        width: 100%!important;
-        height: 500px!important;
-        background-size: contain;
-        
+    .cardfuncionalidade{
+        width: 48%!important;
+        font-size: 12px!important;
     }
+   
     .flexdivisorfuncionalidade ,.flexdesafios{
         width: 100%;
     }
     .carddesafio{
         width: 95%;
         font-size: 19px;
+        padding-right: 10px;
     }
     .txtaprendizado{
         width: 95%;
     }
-    .imgavatar{
-        width: 100%!important;
-        height: 450px;
-        background-size: contain;
-    }
+     
     .cardchamada{
         width: 95%;
         height: auto;
@@ -143,7 +124,7 @@
     .buttomzap, .buttomGitHUb{
         width: 50%;
         font-size: 10px;
-        align-items: center;
+        
     }
     .buttomGitHUb{
         padding: 0px!important;
@@ -152,10 +133,8 @@
         display: none;
         
     }
-    .svgzap {
-       
-        margin: auto;
-    }
+    
+    
     .svgGitihubChamada{
         
         width: 100%!important;
@@ -174,13 +153,52 @@
         height: 40px;
     }
     .svgcheck {
-        width: 20%!important;
+        width: 80%!important;
         height: 40%!important;
-        background-color: #8339eb38;
+        background-color: #8339eb00!important;
         border-radius: 50%;
         margin-top: -5%;
         text-align: center;
         align-items: center;
         line-height: 55px!important;
     }
+
+    .imgfuncionalidades{
+        width: 100%!important;
+        height: 350px!important;
+    } 
+
+    .imgfuncionalidades img{
+        width: 80%!important;
+        height: 400px!important;
+        display: block;
+        margin:  auto;
+    } 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .imgavatar{
+       width: 100%!important;
+        height: 350px!important;
+        
+        
+    } 
+
+    .imgavatar img{
+        width: 80%!important;
+        height: 350px!important;
+        display: block;
+        margin:  auto;
+    } 
 }
