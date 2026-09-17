@@ -158,16 +158,7 @@
     
     
 }
-.carddestaque01:hover {
-    /* 1.05 significa que ele vai aumentar 5% do tamanho original */
-    transform: scale(1.05); 
-    
-}
-.carddestaque02:hover {
-    /* 1.05 significa que ele vai aumentar 5% do tamanho original */
-    transform: scale(1.05); 
-    
-}
+
 .imgfundo , .imgfundo02{
     width: 100%;
     height: 50%;
@@ -321,11 +312,7 @@
     transition: transform 0.2s ease;
     
 }
-.totalcards:hover {
-    /* 1.05 significa que ele vai aumentar 5% do tamanho original */
-    transform: scale(1.05); 
-    
-}
+
 .imgfundo03 , .imgfundo04 , .imgfundo05 , .imgfundo06{
     width: 100%;
     height: 40%;
