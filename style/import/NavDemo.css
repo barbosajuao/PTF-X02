@@ -17,9 +17,9 @@
     background: #15112459;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    border: 1px solid #614ea576;
+    border: 2px solid #fcfbff10;
     border-radius: 20px;
-    
+    padding-left: 30px;
     margin: 0 auto;
     
     
@@ -124,10 +124,10 @@ iframe{
     margin-bottom: 10px;
 }
 .flexano01{
-    background-color: #8847e45c;
+    background-color: #8847e43a;
     padding: 5px;
     border-radius: 10px;
-    color: #8847e4;
+    color: #9962e6;
     align-items: center;
 }
 .flexano02{
@@ -330,9 +330,10 @@ iframe{
     display: flex;
     align-items: center;
     gap: 20px;
-    color: #8239eb;
+    color: #965fe4;
     font-size: 25px;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 .totalflexfuncionalidades{
     width: 100%;
@@ -520,7 +521,11 @@ iframe{
     
 
 }
-
+a{
+     
+    text-decoration: none;
+    color: inherit;
+}
 .buttomzap{
     width: 30%;
     height: 50px;
@@ -529,27 +534,40 @@ iframe{
     color: rgba(255, 255, 255, 0.89);
     font-weight: bolder;
     border-radius: 20px;
-    line-height: 50px;
     display: flex;
-    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
     cursor: pointer;
     font-size: 15px;
-    justify-content: center;
+    
+    gap:10px;
 }
 
-.svgzapdemo{
-    width: 50%;
-    height: 100%;
+.svgzapDemo{
+    width: 500px;
+    min-width:22px ;
+    line-height: 5px;
+    
     
 }
 
 .buttomzap svg{
-    width: 50%;
+    width: 110%;
     height: 100%;
     fill: white;
+    
+}
+.flexbuttomEmail{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    line-height: 10px;
 }
 .buttomEmail{
     width: 30%;
+    height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.415);
     text-align: center;
     
@@ -566,6 +584,12 @@ iframe{
     fill:  rgba(255, 255, 255, 0.554) ;
 }
 
+.flexbuttomGitHUb{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    line-height: 10px;
+}
 .buttomGitHUb{
     width: 30%;
     border: 1px solid rgba(255, 255, 255, 0.415);

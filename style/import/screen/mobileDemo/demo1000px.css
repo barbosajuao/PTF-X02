@@ -112,9 +112,17 @@
     
     .buttomzap, .buttomEmail{
         width: 50%;
-        font-size: 10px;
+        font-size: 18px;
         
-        line-height: 0px!important;
+        
+    }
+
+    .buttomzap svg {
+        width: 15%;
+        min-width: 30px;
+        height: 100%;
+        fill: white;
+        
     }
     .buttomGitHUb{
         display: none;
