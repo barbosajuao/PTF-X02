@@ -213,6 +213,7 @@
     color: rgb(80, 80, 80);
     padding: 30px;
     display: flex;
+    align-items: center;
     font-size: 18px;
     font-weight: 900;
     margin-top: 70px;
@@ -230,7 +231,7 @@
 .animacaolinkscard{
     width: 80%;
     display: flex;
-    gap: 15px;
+    gap: 8px;
     align-items: center;
     text-align: center;
     text-decoration: none;
@@ -250,12 +251,34 @@
     fill:rgb(92, 92, 92) ;
     
 }
-.linkdemo01 , .linkdemo02{
-    width: 80%;
+
+.linkdemo01{
+    width: 100%;
+    height: 30px;
     display: flex;
-    gap: px;
+    gap: 5px;
     align-items: center;
+    justify-content: center;
     color: #8c72ec;
+    background-color: rgba(65, 49, 70, 0.24);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px  rgb(150, 150, 150);
+}
+
+/* ....................................................... */
+ .linkdemo02{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #8c72ec;
+    background-color: rgba(65, 49, 70, 0.24);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px  rgb(150, 150, 150);
+    
+    
 }
 .svgseta{
     width: 30px;
@@ -265,15 +288,19 @@
     
 }
 .linkdemo{
+    width: 60%;
     text-decoration: none;
     color:#8c72ec;
+    
 
 }
 .svgseta svg{
     fill:#8c72ec ;
 }
 #animacaolinkdemo{
+    
     cursor: pointer;
+    
 }
 #animacaolinkdemo:hover #svgseta{
     fill:#b4a5ed ;
@@ -287,6 +314,10 @@
 }
 .animacaolinkscard:hover #animacaocodigo{
     color: #d1d0d2cc;
+}
+
+.linkdemocardsgeral{
+    width: 90%;
 }
 
 
@@ -363,6 +394,7 @@
     color: rgb(80, 80, 80);
     padding: 30px;
     display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 900;
     margin-top: 30px;
