@@ -44,6 +44,10 @@
         gap:10px;
     }
 
+    .IcomVoltar{
+        align-items: center;
+    }
+
     .flextxtDemo{
         height: auto;
         flex-direction: column;
