@@ -41,7 +41,7 @@
     width: 60%;
    }
    #cssbuttoncontato{
-    width: 45%;
+    width: 48%!important;
     justify-content: space-between;
     gap: 5px;
     
@@ -103,7 +103,7 @@
     width: 94%;
    }
    .social{
-    margin-top: 0px;
+    margin-top: 0px !important;
    }
    .navegacao{
     margin-bottom: 100px!important;

@@ -2,7 +2,7 @@ export function animacaoapresentacao(){
     const elementoTexto = document.getElementById("efeito-escrever");
 
     // Adicione aqui os nomes que você quer que fiquem trocando
-    const palavras = ["Desenvolvedor Frontend", "Especialista React", "Freelancer", "Tech Lead"];
+    const palavras = ["Backend Java & Kotlin", "Engenharia de Sistemas Críticos", "Arquitetura de Alta Performance", "Resiliência & Tolerância a Falhas"];
 
     let indicePalavra = 0;
     let indiceLetra = 0;

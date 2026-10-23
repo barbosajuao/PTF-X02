@@ -2,7 +2,7 @@
 /*manipula a autura do perfil relacionado ao fundo quadrado  */
 .containerperfil{
     width: 100%;
-    min-height: 100dvh;
+    min-height: 800px;
     background-image: url(/img/0a0a0f.svg);
     
     background-repeat: no-repeat;

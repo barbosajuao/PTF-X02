@@ -111,11 +111,11 @@ export function AnimacaoTecnologias (){
 
 
         txtprincipal.textContent = "Backend"
-        titulo01.textContent = "Node.js"
-        titulo02.textContent = "Express"
-        titulo03.textContent = "PostgreSQL"
-        titulo04.textContent = "Mongo DB"
-        titulo05.textContent = "GraphQL"
+        titulo01.textContent = "Java & Kotlin"
+        titulo02.textContent = "PostgreSQL"
+        titulo03.textContent = "Apache Kafka / RabbitMQ"
+        titulo04.textContent = "Docker & Kubernetes"
+        titulo05.textContent = "Spring Boot / Spring Cloud"
         titulo06.textContent = "Redis"
 
         statusCarregamento01.style.width = "75%";
@@ -142,12 +142,12 @@ export function AnimacaoTecnologias (){
 
 
         txtprincipal.textContent = "Ferramentas"
-        titulo01.textContent = "Git / GitHub"
-        titulo02.textContent = "Docker"
-        titulo03.textContent = "AWS"
-        titulo04.textContent = "Figma"
-        titulo05.textContent = "Jest / Testing"
-        titulo06.textContent = "CI / CD"
+        titulo01.textContent = "Prometheus + Grafana"
+        titulo02.textContent = "K6 / Locust / JMeter"
+        titulo03.textContent = "Resilience4j"
+        titulo04.textContent = "Flyway / Liquibase"
+        titulo05.textContent = "WireMock / Testcontainers"
+        titulo06.textContent = "GraalVM / Project Loom"
 
         statusCarregamento01.style.width = "85%";
         statusCarregamento02.style.width = "60%";
