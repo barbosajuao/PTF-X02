@@ -1,0 +1,150 @@
+/* =========================================================
+   projeto.css: tela de apresentação de um projeto
+   1. Variáveis   2. Base   3. Topo   4. Vídeo   5. Cartão de info
+   6. Conteúdo    7. Lateral (sticky)   8. Chamada final   9. Mobile
+   ========================================================= */
+
+/* ===== 1. VARIÁVEIS (cores e fonte) ===== */
+:root{
+  --bg:#09090d; --card:#0f0f15; --line:#2b2b36; --borda:#3a3a46; --mut:#9b9bab;
+  --p:#7c3aed; --lil:#a78bfa; --mag:#d946ef; --ver:#34d399;
+  --col:864px; /* largura do conteúdo central */
+  --font:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+
+/* ===== 2. BASE ===== */
+*,*::before,*::after{
+  box-sizing:border-box
+}
+
+html{
+  scroll-behavior:smooth
+}
+
+body{
+  margin:0;background:var(--bg);
+  color:#fff;font:400 1rem/1.6 var(--font);
+  background-image:radial-gradient(ellipse 70% 480px at 15% 0,rgba(124,58,237,.22),transparent 70%);background-repeat:no-repeat
+}
+h1,h2,p,dl,dd,ul,ol{
+  margin:0
+}
+
+ul,ol{
+  padding:0;list-style:none
+}
+
+a{color:inherit;text-decoration:none}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid #a78bfa;outline-offset:3px}
+.i{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.muted{color:var(--mut)}
+.dot{display:inline-block;width:9px;height:9px;margin-right:.6rem;border-radius:50%;background:#10b981}
+
+/* ===== 3. TOPO FIXO ===== */
+.topo{position:sticky;top:0;z-index:40;background:rgba(9,9,13,.88);backdrop-filter:blur(10px);border-bottom:1px solid #1d1d26}
+.topo-in{width:min(100% - 2rem,1000px);margin-inline:auto;height:57px;display:flex;align-items:center;gap:.9rem;font-size:.9rem}
+.voltar{display:inline-flex;align-items:center;gap:.5rem;color:var(--mut);margin-right:.4rem}
+.voltar:hover{color:#fff}
+.voltar .i{width:14px;height:14px}
+.sigla{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--p),var(--mag));font-size:.7rem;font-weight:700}
+.topo-nome{font-weight:600}
+
+/* ===== 4. VÍDEO NA MOLDURA DE NOTEBOOK ===== */
+.hero{padding-top:2.5rem}
+.device{position:relative;width:min(100% - 2rem,1200px);margin-inline:auto;padding:3px 3px 0;border-radius:40px 40px 0 0;background:linear-gradient(135deg,#7c46e6,#2d3a8c 55%,#7c46e6)}
+.device-in{padding:3% 3.5% 130px;border-radius:37px 37px 0 0;background:#0b0b10} /* 130px de base: o cartão de info sobrepõe 110px, sem tocar no vídeo */
+.device::after{content:"";position:absolute;inset:auto 0 0;height:190px;background:linear-gradient(transparent,var(--bg) 85%);pointer-events:none}
+.device.tocando::after{display:none}
+.stage{position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:16px;background:linear-gradient(135deg,#1b1233,#2a1030)}
+.stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.capa{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(3px) brightness(.55);transform:scale(1.04)}
+.play{position:absolute;left:50%;top:50%;width:80px;height:80px;margin:-40px 0 0 -40px;display:grid;place-items:center;border:0;border-radius:50%;background:#7c4ae6;color:#fff;cursor:pointer;box-shadow:0 0 40px rgba(124,58,237,.6);transition:transform .2s}
+.play:hover{transform:scale(1.08)}
+.play .i{width:34px;height:34px;margin-left:4px}
+
+/* ===== 5. CARTÃO DE INFORMAÇÕES ===== */
+.info{position:relative;z-index:2;width:min(100% - 2rem,var(--col));margin:-110px auto 0;padding:1.4rem 1.6rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1.25rem;border:2px solid #4a4a58;border-radius:24px;background:rgba(14,14,20,.96)}
+.meta{display:flex;align-items:center;gap:.7rem;margin-bottom:.3rem;color:var(--mut);font-size:.8rem}
+.pill{padding:.1rem .8rem;border-radius:999px;background:#2a1d55;color:#c4b5fd;font-weight:500}
+.info h1{font-size:1.5rem;font-weight:700;line-height:1.2}
+.dados{display:flex;flex-wrap:wrap;gap:2rem}
+.dados dt{color:var(--mut);font-size:.8rem}
+.dados dd{font-weight:600;font-size:.9rem}
+
+/* ===== 6. CONTEÚDO ===== */
+.conteudo{width:min(100% - 2rem,var(--col));margin:4rem auto 0}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 316px;gap:3rem;align-items:start}
+.col-main section{margin-bottom:3rem}
+.rot{display:flex;align-items:center;gap:.8rem;margin-bottom:1.4rem;color:var(--lil);font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.rot::before{content:"";width:32px;height:1px;background:currentColor}
+.rot.mag{color:var(--mag)}
+.rot.ver{color:var(--ver)}
+.texto p{color:#d4d4de;font-size:.92rem;line-height:1.75;margin-bottom:1.1rem}
+.func{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem}
+.func li{display:flex;gap:.8rem;padding:1rem;border:1px solid #1c1c26;border-radius:14px;background:#0d0d13;color:#d4d4de;font-size:.88rem;line-height:1.6}
+.chk{display:grid;place-items:center;width:22px;height:22px;flex:none;margin-top:1px;border-radius:50%;background:#251a4d;color:#a78bfa}
+.chk .i{width:12px;height:12px;stroke-width:3}
+.desafios{display:grid;gap:.8rem;counter-reset:d}
+.desafios li{display:flex;align-items:center;gap:1rem;padding:1.1rem 1.2rem;border:1px solid #2a1838;border-radius:14px;background:linear-gradient(90deg,#1a1024,#0e0e14);color:#d4d4de;font-size:.88rem}
+.desafios li::before{counter-increment:d;content:counter(d);display:grid;place-items:center;width:24px;height:24px;flex:none;border-radius:50%;background:#3b1146;color:#e879f9;font-size:.72rem;font-weight:700}
+.aprend{padding:1.4rem;border:1px solid #12301f;border-radius:14px;background:#0c1512;color:#b4b4c2;font-size:.88rem;font-style:italic;line-height:1.75}
+
+/* ===== 7. LATERAL: Tech Stack e Links acompanham a rolagem ===== */
+.col-side{position:sticky;top:80px;display:grid;gap:1.1rem}
+.box{padding:1.5rem;border:2px solid var(--borda);border-radius:26px;background:var(--card)}
+.box-t{display:flex;align-items:center;gap:.7rem;margin-bottom:1.1rem;color:#d4d4de;font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.box-t .i{width:17px;height:17px;color:#a78bfa}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chips li{padding:.3rem .9rem;border:1.5px solid #4a4a58;border-radius:999px;font-size:.78rem;font-weight:600}
+.lks{display:grid;gap:.7rem}
+.lk{display:flex;align-items:center;gap:.8rem;padding:.9rem 1rem;border:1.5px solid #4a4a58;border-radius:12px;font-size:.9rem;font-weight:500;transition:border-color .2s,background .2s}
+.lk span{flex:1}
+.lk .go{width:13px;height:13px;color:var(--mut)}
+.lk:hover{border-color:#a78bfa}
+.lk.demo{border-color:#2d2260;background:linear-gradient(90deg,#1f1740,#120e24)}
+.lk.demo .go,.lk.demo .i:first-child{color:#a78bfa}
+
+/* ===== 8. CHAMADA FINAL, RODAPÉ E WHATSAPP ===== */
+.cta{width:min(100% - 2rem,var(--col));margin:3rem auto 0;padding:3rem 1.5rem;text-align:center;border:2px solid var(--borda);border-radius:36px;background:radial-gradient(ellipse 70% 100% at 80% 100%,rgba(124,58,237,.14),transparent),#0c0c11}
+.disp{display:inline-flex;align-items:center;padding:.4rem 1rem;border:1px solid #14532d;border-radius:999px;background:#0b2016;color:#34d399;font-size:.8rem;font-weight:500}
+.disp .dot{margin-right:.55rem}
+.cta h2{margin:1.1rem 0 .7rem;font-size:clamp(1.7rem,4vw,2.2rem);font-weight:800}
+.cta .muted{max-width:34rem;margin-inline:auto;font-size:.9rem}
+.cta-btns{display:flex;flex-wrap:wrap;justify-content:center;gap:.8rem;margin-top:1.8rem}
+.b{display:inline-flex;align-items:center;gap:.6rem;padding:.9rem 1.5rem;border:1px solid var(--line);border-radius:12px;background:#101016;font-size:.9rem;font-weight:600;transition:filter .2s}
+.b:hover{filter:brightness(1.2)}
+.b.zap{border-color:#10b981;background:#10b981;box-shadow:0 0 24px rgba(16,185,129,.35)}
+.rodape{width:min(100% - 2rem,var(--col));margin:1.6rem auto 0;padding-bottom:3rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem;color:var(--mut);font-size:.85rem}
+.volta-port{display:inline-flex;align-items:center;gap:.5rem}
+.volta-port .i{width:14px;height:14px}
+.volta-port:hover,.soc a:hover{color:#fff}
+.soc{display:flex;gap:1.2rem}
+.whats-fl{position:fixed;right:1.5rem;bottom:1.5rem;z-index:40;display:grid;place-items:center;width:56px;height:56px;border-radius:50%;background:#22c55e;box-shadow:0 0 24px rgba(34,197,94,.5)}
+.whats-fl .i{width:28px;height:28px}
+
+/* ===== 9. MOBILE E TABLET ===== */
+@media (max-width:899px){
+  .grid{grid-template-columns:1fr;gap:2rem}
+  .col-side{position:static;order:-1}   /* Tech Stack e Links sobem para antes do texto */
+}
+@media (max-width:639px){
+  .hero{padding-top:1.25rem}
+  .device{border-radius:24px 24px 0 0}
+  .device-in{padding:3% 3% 78px;border-radius:22px 22px 0 0}
+  .device::after{height:110px}
+  .stage{border-radius:10px}
+  .play{width:56px;height:56px;margin:-28px 0 0 -28px}
+  .play .i{width:24px;height:24px}
+  .info{margin-top:-60px;padding:1.2rem}
+  .dados{gap:1.2rem}
+  .conteudo{margin-top:2.5rem}
+  .func{grid-template-columns:1fr}
+  .cta{padding:2.2rem 1.1rem;border-radius:26px}
+  .b{flex:1 1 100%;justify-content:center}
+  .whats-fl{width:50px;height:50px;right:1rem;bottom:1rem}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .play{transition:none}
+}
