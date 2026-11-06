@@ -29,7 +29,7 @@ const PROJETOS_DETALHE = {
 
     // Vídeo do YouTube: cole o link inteiro ou só o código de 11 caracteres
     // (EXEMPLO: troque pelo vídeo de demonstração do seu projeto)
-    video: "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+    video: "https://www.youtube.com/watch?v=J3HoQPoV-Ms",
     capa: "/img/01.avif",                                // imagem de capa própria, ex.: "img/capa.jpg" (vazio = usa a miniatura do YouTube)
 
     sobre: [
