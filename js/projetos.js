@@ -21,7 +21,7 @@
    /* alterar os img para manipular as fotos  */
 const PROJETOS = [
   { titulo: "NexCommerce", ano: 2026, destaque: true, img: "/img/01.avif",
-    tags: ["React", "Nodejs", "AWS", "JAVA"], codigo: "#", demo: "#",
+    tags: ["React", "Nodejs", "AWS", "JAVA"], codigo: "#", demo: "/pages/projeto.html?id=nexcommerce",
     texto: "Uma plataforma de e-commerce escalável construída com React, Node.js e AWS, oferecendo uma experiência de compra fluida e segura." },
 
   { titulo: "NexCommerce", ano: 2025, destaque: true, img: "/img/02.png",

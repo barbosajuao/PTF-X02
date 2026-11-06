@@ -17,9 +17,9 @@ const DADOS = {
   // Linha do tempo da seção Sobre (atual: true mostra a etiqueta "Atual")
   trajetoria: [
 
-    { ano: "2026", atual: true, cargo: "Senior Full Stack Developer", empresa: "TechCorp Brasil" },
-    { ano: "2026", cargo: "Senior Full Stack Developer", empresa: "TechCorp Brasil" },
-    { ano: "2026", cargo: "Senior Full Stack Developer", empresa: "TechCorp Brasil" },
+    { ano: "2026", atual: true, cargo: "Backend Software Engineer | High-Throughput & Critical Systems | Java & Kotlin Especializado em Arquiteturas Distribuídas, Resiliência e Engenharia de Performance", empresa: "Consultor" },
+    { ano: "2020", cargo: "Especialista em Infraestrutura de Redes", empresa: "Vianet, Novanet" },
+    { ano: "2018", cargo: "Especialista em Redes Wireless e Enlaces", empresa: "Vianet" },
     
   ],
 

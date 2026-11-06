@@ -11,8 +11,8 @@
 const CONTATO = {
   whatsapp: "5575998108105",                 // só números, com 55 + DDD
   email: "contatojoaopedrodev@gmail.com",
-  github: "https://github.com/barbosajuao",
-  linkedin: "https://linkedin.com/in/joaopedrobarbosa",
+  github: "https://github.com/devjuao-cyber",
+  linkedin: "https://www.linkedin.com/in/jo%C3%A3o-pedro-barbosa-075890139/",
   portfolio: "index.html",                   // para onde vai "Voltar ao portfólio"
   voltar: "galeria.html"                     // para onde vai "Voltar" no topo (se não houver histórico)
 };
@@ -186,7 +186,7 @@ const PROJETOS_DETALHE = {
   $("box-links").hidden = !(d.codigo || d.demo);
 
   /* ----- chamada final, rodapé e WhatsApp flutuante ----- */
-  const zap = "https://wa.me/" + CONTATO.whatsapp + "?text=" +
+  const zap = "https://wa.me/"  + CONTATO.whatsapp + "?text=" +
     encodeURIComponent("Olá João! Vi o projeto " + d.titulo + " no seu portfólio e gostaria de conversar.");
   const mail = "mailto:" + CONTATO.email + "?subject=" + encodeURIComponent("Contato pelo portfólio: " + d.titulo);
   $("b-whats").href = zap;
